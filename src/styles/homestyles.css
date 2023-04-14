@@ -6,10 +6,52 @@
     position: absolute;
     top:15px;
     right: 20px;
+    z-index: 3;
 }
 
 .btn-icon{
     border: none;
     background-color: transparent;
     cursor: pointer;
+}
+
+.overlayNone{
+    position: absolute;
+    top: -100%;
+    left: 0;
+    width: 100vw;
+    height: 100%;
+    background-color: rgba(0,0,0,0.90);
+    z-index: 2;
+    animation: overlayCloseAnimation .5s ease-out;
+}
+
+.overlay{ 
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100%;
+    background-color: rgba(0,0,0,0.90);
+    z-index: 2;
+    animation: overlayAnimation .5s ease-in;
+}
+
+@keyframes overlayAnimation{
+    0%{
+        top:-100%
+    }
+    100%{
+        top:0;
+    }
+
+}
+
+@keyframes overlayCloseAnimation{
+    0%{
+        top:0;
+    }
+    100%{
+        top:-100%
+    }
 }
