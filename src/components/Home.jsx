@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Hero from "./Hero";
 import { FiMenu, FiX } from "react-icons/fi";
-import AboutMeLogo from "../assets/images/About-me.png";
+import ContactMeLogo from "../assets/images/Contact-me.png";
 
 import "../styles/homestyles.css";
 const Home = () => {
@@ -18,7 +18,7 @@ const Home = () => {
         }
       >
         <button className="aboutmelogo__btn">
-          <img className="aboutmelogo__image" src={AboutMeLogo} />
+          <img className="aboutmelogo__image" src={ContactMeLogo} />
         </button>
       </div>
       <div className="hamburgermenu__wrapper">
