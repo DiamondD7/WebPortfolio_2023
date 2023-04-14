@@ -12,6 +12,8 @@
 
 .hero-texts_wrapper{
     z-index: 1;
+    padding: 200px 0 0 120px;
+    animation: effectOpacity 2s ease-in-out;
 }
 
 .hero-header__text{
@@ -19,7 +21,6 @@
     font-size: 50px;
     font-weight: 500;
 
-    padding: 200px 0 0 100px;
 }
 
 .hero-subheader__text{
@@ -27,20 +28,38 @@
     font-size: 24px;
     width: 950px;
     margin-top: 10px;
-    padding-left: 100px;
 }
 
 .hero-cartoon-image__wrapper{
 
 }
 
-.hero-cartoon__image{
-    width: 600px;
-    margin-left: 100px;
+.image-splatter{
+    position: absolute;
+    top:-300px;
+    left: -220px;
+    animation: effectOpacity 2s ease-in-out;
 }
 
+.hero-cartoon__image{
+    width: 600px;
+    margin-left: 70px;
+    animation: effectOpacity 2s ease-in-out;
+}
+
+@keyframes effectOpacity{
+    0%{
+        opacity: 0;
+    }
+
+    100%{
+        opacity:1;
+    }
+}
+
+
 .hero-btns_wrapper{
-    margin:30px 0 0 100px;
+    margin-top:30px;
 }
 
 .hero-btn__about{
@@ -67,10 +86,4 @@
     text-transform: uppercase;
     cursor: pointer;
 
-}
-
-.image-splatter{
-    position: absolute;
-    top:-300px;
-    left: -220px;
 }

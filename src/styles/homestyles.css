@@ -11,4 +11,5 @@
 .btn-icon{
     border: none;
     background-color: transparent;
+    cursor: pointer;
 }
