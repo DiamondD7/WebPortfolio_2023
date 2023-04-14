@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Hero from "./Hero";
-import { FiAlignJustify } from "react-icons/fi";
+import { FiMenu, FiX } from "react-icons/fi";
 
 import "../styles/homestyles.css";
 const Home = () => {
@@ -13,10 +13,11 @@ const Home = () => {
           className="btn-icon"
           onClick={() => setMenuClicked(!menuClicked)}
         >
-          <FiAlignJustify
-            size={"30px"}
-            color={menuClicked ? "#5e17eb" : "#202020"}
-          />
+          {menuClicked ? (
+            <FiX size={"35px"} color={"#5e17eb"} />
+          ) : (
+            <FiMenu size={"30px"} color={"#202020"} />
+          )}
         </button>
       </div>
       <div className="hero-container">
