@@ -15,11 +15,11 @@
 }
 
 .hero-header__text{
-    color: #202020;
+    color: #5e17eb;
     font-size: 50px;
     font-weight: 500;
 
-    padding: 180px 0 0 100px;
+    padding: 200px 0 0 100px;
 }
 
 .hero-subheader__text{
@@ -30,7 +30,46 @@
     padding-left: 100px;
 }
 
-.hero-animate-image__wrapper{
+.hero-cartoon-image__wrapper{
 
 }
 
+.hero-cartoon__image{
+    width: 600px;
+}
+
+.hero-btns_wrapper{
+    margin:30px 0 0 100px;
+}
+
+.hero-btn__about{
+    padding: 3px 20px;
+    border-radius: 50px;
+    color: #202020;
+    border: 1px solid #5e17eb;
+    font-size: 20px;
+
+    text-transform: uppercase;
+    margin-right: 30px;
+    cursor: pointer;
+
+}
+
+.hero-btn__portfolio{
+    padding: 3px 20px;
+    border-radius: 50px;
+    color: #F3F3F3;
+    border: 1px solid #5e17eb;
+    background-color: #5e17eb;
+    font-size: 20px;
+
+    text-transform: uppercase;
+    cursor: pointer;
+
+}
+
+.image-splatter{
+    position: absolute;
+    top:-300px;
+    left: -220px;
+}
