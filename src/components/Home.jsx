@@ -17,8 +17,8 @@ const Home = () => {
             : "overlayClose"
         }
       >
-        <button className="aboutmelogo__btn">
-          <img className="aboutmelogo__image" src={ContactMeLogo} />
+        <button className="contactmelogo__btn">
+          <img className="contactmelogo__image" src={ContactMeLogo} />
         </button>
       </div>
       <div className="hamburgermenu__wrapper">
