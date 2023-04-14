@@ -1,0 +1,36 @@
+.hero-container__wrapper{
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 555px;
+    
+}
+
+.hero-header__wrapper{
+    display: flex;
+    
+}
+
+.hero-texts_wrapper{
+    z-index: 1;
+}
+
+.hero-header__text{
+    color: #202020;
+    font-size: 50px;
+    font-weight: 500;
+
+    padding: 180px 0 0 100px;
+}
+
+.hero-subheader__text{
+    color: #202020;
+    font-size: 24px;
+    width: 950px;
+    margin-top: 10px;
+    padding-left: 100px;
+}
+
+.hero-animate-image__wrapper{
+
+}
+
