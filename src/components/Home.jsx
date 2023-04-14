@@ -1,13 +1,26 @@
 import React, { useState } from "react";
 import Hero from "./Hero";
 import { FiMenu, FiX } from "react-icons/fi";
+import AboutMeLogo from "../assets/images/About-me.png";
 
 import "../styles/homestyles.css";
 const Home = () => {
-  const [menuClicked, setMenuClicked] = useState(false);
+  const [menuClicked, setMenuClicked] = useState(null);
   return (
     <div>
-      <div className={menuClicked ? "overlay" : "overlayNone"}></div>
+      <div
+        className={
+          menuClicked
+            ? "overlay"
+            : menuClicked === null
+            ? "overlayNone"
+            : "overlayClose"
+        }
+      >
+        <button className="aboutmelogo__btn">
+          <img className="aboutmelogo__image" src={AboutMeLogo} />
+        </button>
+      </div>
       <div className="hamburgermenu__wrapper">
         <button
           className="btn-icon"
