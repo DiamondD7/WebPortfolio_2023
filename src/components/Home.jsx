@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import Hero from "./Hero";
 import { FiMenu, FiX } from "react-icons/fi";
-import ContactMeLogo from "../assets/images/Contact-me.png";
+
+import Nav from "./Nav/Nav";
 
 import "../styles/homestyles.css";
 const Home = () => {
@@ -17,9 +18,7 @@ const Home = () => {
             : "overlayClose"
         }
       >
-        <button className="contactmelogo__btn">
-          <img className="contactmelogo__image" src={ContactMeLogo} />
-        </button>
+        <Nav />
       </div>
       <div className="hamburgermenu__wrapper">
         <button
