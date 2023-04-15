@@ -10,8 +10,8 @@ const Nav = () => {
       <button className="contactmelogo__btn">
         <img className="contactmelogo__image" src={ContactMeLogo} />
       </button>
-      <button className="contactmelogo__btn">
-        <img className="contactmelogo__image" src={CvResume} />
+      <button className="cvresumelogo__btn">
+        <img className="cvresumelogo__image" src={CvResume} />
       </button>
     </div>
   );

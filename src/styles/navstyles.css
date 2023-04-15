@@ -7,3 +7,14 @@
     border: none;
     cursor: pointer;
 }
+
+
+.cvresumelogo__image{
+    width: 300px;
+}
+
+.cvresumelogo__btn{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
