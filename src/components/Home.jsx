@@ -6,6 +6,7 @@ import Nav from "./Nav/Nav";
 
 import "../styles/homestyles.css";
 import Aboutme from "./Aboutme/Aboutme";
+import SocialMediaIcons from "./SocialMediaIcons";
 const Home = () => {
   const [menuClicked, setMenuClicked] = useState(null);
   return (
@@ -35,6 +36,7 @@ const Home = () => {
       </div>
       <div className="hero-container">
         <Hero />
+        <SocialMediaIcons />
       </div>
       <div className="aboutme-container">
         <Aboutme />
