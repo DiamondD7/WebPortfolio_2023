@@ -1,3 +1,9 @@
+.nav-container__wrapper{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
 .contactmelogo__image{
     width: 300px;
 }
