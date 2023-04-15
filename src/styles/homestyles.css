@@ -69,18 +69,3 @@
     }
 }
 
-
-.contactmelogo__image{
-    width: 300px;
-}
-
-.contactmelogo__btn{
-    background-color: transparent;
-    border: none;
-    cursor: pointer;
-}
-
-/* .aboutmelogo__btn:hover{
-    cursor: pointer;
-    background-color: rgba(0,0,0,0.2);
-} */

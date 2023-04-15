@@ -2,6 +2,8 @@ import React from "react";
 
 import ContactMeLogo from "../../assets/images/Contact-me.png";
 import CvResume from "../../assets/images/CvResume.png";
+
+import "../../styles/navstyles.css";
 const Nav = () => {
   return (
     <div>
