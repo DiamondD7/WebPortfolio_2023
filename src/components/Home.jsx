@@ -36,7 +36,7 @@ const Home = () => {
       <div className="hero-container">
         <Hero />
       </div>
-      <div>
+      <div className="aboutme-container">
         <Aboutme />
       </div>
     </div>
