@@ -57,3 +57,12 @@
     margin-bottom: 30px; 
     letter-spacing: 1px;
 }
+
+.description-texts__wrapper{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.description-texts__header{
+    color: #202020;
+}

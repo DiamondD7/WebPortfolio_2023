@@ -13,7 +13,19 @@ const Description = () => {
             <li>Study</li>
           </ul>
         </div>
-        <div className="description-container__wrapper"></div>
+        <div className="description-container__wrapper">
+          <div className="description-texts__wrapper">
+            <div>
+              <h2 className="description-texts__header">Frontend</h2>
+            </div>
+            <div>
+              <h2 className="description-texts__header">Backend</h2>
+            </div>
+            <div>
+              <h2 className="description-texts__header">Design</h2>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
