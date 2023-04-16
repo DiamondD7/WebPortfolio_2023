@@ -1,6 +1,24 @@
 import React from "react";
 
 import "../../styles/aboutstyles.css";
+const Description = () => {
+  return (
+    <div>
+      <div className="description__wrapper">
+        <div className="description-list__wrapper">
+          <ul>
+            <li>Skills</li>
+            <li>Hobbies</li>
+            <li>Experience</li>
+            <li>Study</li>
+          </ul>
+        </div>
+        <div className="description-container__wrapper"></div>
+      </div>
+    </div>
+  );
+};
+
 const About = () => {
   return (
     <div>
@@ -15,6 +33,8 @@ const About = () => {
           or Angular as the frontend. Over the years, I have been crafting my
           skills to be one of the best dev in Auckland NZ.
         </p>
+
+        <Description />
       </div>
     </div>
   );
