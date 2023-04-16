@@ -2,4 +2,20 @@
     background-color: #5e17eb;
     height: 400px;
     width: 100%;
+
+    padding-top: 130px;
+    text-align: center;
+}
+
+.about-header__text{
+    color: #F3F3F3;
+}
+
+.about-paragraph__text{
+    display: inline-block;
+    color: #F3F3F3;
+    font-size: 20px;
+    width: 700px;
+
+    padding-top: 30px;
 }
