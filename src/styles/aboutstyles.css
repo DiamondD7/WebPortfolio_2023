@@ -34,7 +34,7 @@
 }
 .description-container__wrapper{
     background-color: #F3F3F3;
-    width: 750px;
+    width: 850px;
     height: 450px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     
@@ -54,15 +54,24 @@
 }
 
 .description-list__wrapper ul li{
-    margin-bottom: 30px; 
+    margin-top: 25px; 
     letter-spacing: 1px;
 }
 
 .description-texts__wrapper{
     display: flex;
-    justify-content: space-evenly;
+    /* justify-content: space-around; */
+    /* padding-top: 20px; */
 }
 
 .description-texts__header{
     color: #202020;
+    font-weight: 400;
+}
+
+.description-texts-container{
+    /* background-color: red; */
+    width: 300px;
+    height: 450px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 0px 0.8px;
 }
