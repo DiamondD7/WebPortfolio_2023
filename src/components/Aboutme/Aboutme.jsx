@@ -8,7 +8,11 @@ const Aboutme = () => {
     <div>
       <div className="aboutme-container__wrapper">
         <div>
-          <img alt="painted face" src={PaintedFace} />
+          <img
+            className="painted-face__image"
+            alt="painted face"
+            src={PaintedFace}
+          />
         </div>
         <div>
           <p className="aboutme-header__text">About me</p>

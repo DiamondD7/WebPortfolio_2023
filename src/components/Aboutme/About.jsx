@@ -1,9 +1,10 @@
 import React from "react";
 
+import "../../styles/aboutstyles.css";
 const About = () => {
   return (
     <div>
-      <h1>Hello, World!</h1>
+      <div className="about-container__wrapper"></div>
     </div>
   );
 };
