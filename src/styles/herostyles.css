@@ -31,9 +31,10 @@
     letter-spacing: 1px;
 }
 
-.hero-cartoon-image__wrapper{
-
+.hero-image__wrapper{
+    margin: 0 auto;
 }
+
 
 .image-splatter{
     position: absolute;
@@ -42,8 +43,28 @@
     animation: effectOpacity 2s ease-in-out;
 }
 
+.image-splatter2{
+    position: absolute;
+    top:300px;
+    left: 50px;
+    animation: effectOpacity 2s ease-in-out;
+}
+
+.image-splatter3{
+    position: absolute;
+    top:0px;
+    right: 100px;
+    animation: effectOpacity 2s ease-in-out;
+}
+
+.hero-cartoon-image__wrapper{
+    position: absolute;
+    top: 550px;
+    right: 500px;
+}
+
 .hero-cartoon__image{
-    width: 600px;
+    width: 490px;
     margin-left: 70px;
     animation: effectOpacity 2s ease-in-out;
 }
@@ -56,6 +77,16 @@
     100%{
         opacity:1;
     }
+}
+
+.hero-cartoon-image2__wrapper{
+    position: absolute;
+    top: 710px;
+    left: 300px;
+}
+
+.hero-cartoon__image2{
+    animation: effectOpacity 2s ease-in-out;
 }
 
 
