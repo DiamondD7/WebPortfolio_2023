@@ -75,3 +75,15 @@
     height: 450px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 0px 0.8px;
 }
+
+.description-texts__subheader{
+    font-size: 13px;
+    margin-top: 10px;
+    color: rgba(0, 0, 0, 0.3);
+}
+
+.description-texts__title1{
+    font-size: 18px;
+    margin-top: 30px;
+    color: #5e17eb;
+}

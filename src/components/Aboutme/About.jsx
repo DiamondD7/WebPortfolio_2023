@@ -17,12 +17,34 @@ const Description = () => {
           <div className="description-texts__wrapper">
             <div className="description-texts-container">
               <h2 className="description-texts__header">Frontend</h2>
+              <p className="description-texts__subheader">
+                The significance of the client side of an application lies in
+                its ability to engage users with the website, and as such, I
+                place great importance on its development.
+              </p>
+
+              <p className="description-texts__title1">Technologies I use:</p>
+              <p>Html, Css, Javascript, Semantic-ui</p>
+
+              <p className="description-texts__title1">Frontend Libraries:</p>
+              <p>React & Angular</p>
+
+              <p className="description-texts__title1">Dev Tools:</p>
+              <p>
+                React-Icons, Figma, Sketch, Font Awesome, HeroIcons, Coolors
+              </p>
             </div>
             <div className="description-texts-container">
               <h2 className="description-texts__header">Backend</h2>
+              <p className="description-texts__subheader">
+                I place significant importance on the backend side of an
+                application as it serves as the foundation that gives the
+                application its purpose and functionality, thereby bringing it
+                to life.
+              </p>
             </div>
             <div className="description-texts-container">
-              <h2 className="description-texts__header">Design</h2>
+              <h2 className="description-texts__header">Designer</h2>
             </div>
           </div>
         </div>
@@ -39,7 +61,7 @@ const About = () => {
           Hello, I am Aaron. Nice to meet you.
         </h1>
         <p className="about-paragraph__text">
-          I am New Zealand based Fullstack Web Developer, a passionate
+          I am a New Zealand based Fullstack Web Developer, a passionate
           individual that is always willing to learn necessary things to be
           successful in this industry. I like to work with .Net Core using React
           or Angular as the frontend. Over the years, I have been crafting my
