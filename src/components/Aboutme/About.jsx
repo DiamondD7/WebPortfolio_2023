@@ -26,7 +26,9 @@ const Description = () => {
               <p className="description-texts__title1">Technologies I use:</p>
               <p>Html, Css, Javascript, Semantic-ui</p>
 
-              <p className="description-texts__title1">Frontend Libraries:</p>
+              <p className="description-texts__title1">
+                Frontend Libraries/Framework:
+              </p>
               <p>React & Angular</p>
 
               <p className="description-texts__title1">Dev Tools:</p>
@@ -37,11 +39,18 @@ const Description = () => {
             <div className="description-texts-container">
               <h2 className="description-texts__header">Backend</h2>
               <p className="description-texts__subheader">
-                I place significant importance on the backend side of an
-                application as it serves as the foundation that gives the
-                application its purpose and functionality, thereby bringing it
-                to life.
+                The client-side of an application is crucial in captivating
+                users, and similarly, the backend-side is vital in providing an
+                application with its purpose and bringing it to fruition.
               </p>
+              <p className="description-texts__title1">Technologies I use:</p>
+              <p>C#, Javascript, TS , .Net Core, MSSQL</p>
+              <p className="description-texts__title1">
+                Backend Libraries/Framework:
+              </p>
+              <p>ASP.NET & ExpressJS</p>
+              <p className="description-texts__title1">Dev Tools:</p>
+              <p>Postman, SwaggerUI, Axios</p>
             </div>
             <div className="description-texts-container">
               <h2 className="description-texts__header">Designer</h2>
