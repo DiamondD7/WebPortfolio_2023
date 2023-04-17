@@ -53,7 +53,18 @@ const Description = () => {
               <p>Postman, SwaggerUI, Axios</p>
             </div>
             <div className="description-texts-container">
-              <h2 className="description-texts__header">Designer</h2>
+              <h2 className="description-texts__header">Currently Learning</h2>
+              <p className="description-texts__subheader">
+                technology and software development, is a personal passion of
+                mine. Continual learning and growth within this industry are
+                paramount to my success.
+              </p>
+              <p className="description-texts__title1">Improving on these:</p>
+              <p>Angular, TS, ExpressJS, Design</p>
+              <p className="description-texts__title1">Self-development:</p>
+              <p>Communication & Pair-Programming</p>
+              <p className="description-texts__title1">To learn next:</p>
+              <p>Vue, Wordpress, AI, Python</p>
             </div>
           </div>
         </div>
