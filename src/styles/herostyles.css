@@ -40,21 +40,22 @@
     position: absolute;
     top:-300px;
     left: -220px;
-    animation: effectOpacity 2s ease-in-out;
+    animation: splatterEffect11 1s ease-in-out;
 }
 
 .image-splatter2{
     position: absolute;
     top:300px;
     left: 50px;
-    animation: effectOpacity 2s ease-in-out;
+    animation: splatterEffect2 1s ease-in-out;
 }
 
 .image-splatter3{
+    display: block;
     position: absolute;
     top:0px;
     right: 100px;
-    animation: effectOpacity 2s ease-in-out;
+    animation: splatterEffect3 1s ease-in;
 }
 
 .hero-cartoon-image__wrapper{
@@ -64,9 +65,56 @@
 }
 
 .hero-cartoon__image{
+    display: none;
     width: 490px;
     margin-left: 70px;
+    /* animation: effectOpacity 2s ease-in-out; */
+}
+
+.hero-cartoon-image2__wrapper{
+    position: absolute;
+    top: 710px;
+    left: 300px;
+}
+
+.hero-cartoon__image2{
+    display: none;
+    /* animation: effectOpacity 2s ease-in-out; */
+}
+
+
+.start-animation{
+    display: block;
     animation: effectOpacity 2s ease-in-out;
+}
+
+
+@keyframes splatterEffect1{
+    0%{
+        opacity: 0;
+    }
+    30%,100%{
+        opacity: 1;
+    }
+}
+
+@keyframes splatterEffect2{
+    0%{
+        opacity: 0;
+    }
+    70%,100%{
+        opacity: 1;
+    }
+}
+
+
+@keyframes splatterEffect3{
+    0%{
+        opacity: 0;
+    }
+    90%,100%{
+        opacity: 1;
+    }
 }
 
 @keyframes effectOpacity{
@@ -79,15 +127,6 @@
     }
 }
 
-.hero-cartoon-image2__wrapper{
-    position: absolute;
-    top: 710px;
-    left: 300px;
-}
-
-.hero-cartoon__image2{
-    animation: effectOpacity 2s ease-in-out;
-}
 
 
 .hero-btns_wrapper{

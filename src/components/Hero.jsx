@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import Weblogo from "../assets/images/AJS-logo.png";
 import Splatter from "../assets/images/splatter.png";
 import HeroCartoon from "../assets/images/Hero-cartoon.png";
@@ -7,6 +7,14 @@ import Books from "../assets/images/books.png";
 import "../styles/herostyles.css";
 const Hero = () => {
   const NameText = <span style={{ color: "#5e17eb" }}>Aaron Sierra</span>;
+
+  const [startAnim, setStartAnim] = useState(false);
+
+  useEffect(() => {
+    setTimeout(() => {
+      setStartAnim(true);
+    }, 1000);
+  }, []);
   return (
     <div>
       <div className="hero-container__wrapper">
@@ -28,11 +36,21 @@ const Hero = () => {
             </div>
           </div> */}
           <div className="hero-cartoon-image__wrapper">
-            <img className="hero-cartoon__image" src={HeroCartoon} />
+            <img
+              className={`hero-cartoon__image ${
+                startAnim === true ? "start-animation" : ""
+              }`}
+              src={HeroCartoon}
+            />
           </div>
 
           <div className="hero-cartoon-image2__wrapper">
-            <img className="hero-cartoon__image2" src={Books} />
+            <img
+              className={`hero-cartoon__image2 ${
+                startAnim === true ? "start-animation" : ""
+              }`}
+              src={Books}
+            />
           </div>
         </div>
         <div className="image-splatter">
