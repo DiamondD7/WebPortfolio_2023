@@ -113,3 +113,41 @@
     margin-top: 30px;
     color: #5e17eb;
 }
+
+
+/* HOBBIES */
+
+.hobbies-container{
+ /* display: flex;
+ justify-content: space-evenly; */
+ display: grid;
+ grid-template-columns: repeat(3, 284px);
+ grid-template-rows: repeat(2, 225px);
+ /* margin-top: 50px; */
+}
+
+
+.floatfloat{
+    /* position: fixed;
+    bottom: 0;
+    left: 50%; */
+    transform: translateX(-50%);
+    animation: float 3s ease-in-out infinite;
+    margin-top: 20px;
+}
+
+.tx{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 0px 0.8px;
+}
+
+@keyframes float {
+    0% {
+      transform: translatey(0);
+    }
+    50% {
+      transform: translatey(-10px);
+    }
+    100% {
+      transform: translatey(0);
+    }
+}

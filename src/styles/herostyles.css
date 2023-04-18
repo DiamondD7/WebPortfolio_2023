@@ -40,7 +40,7 @@
     position: absolute;
     top:-300px;
     left: -220px;
-    animation: splatterEffect11 1s ease-in-out;
+    animation: splatterEffect1 1s ease-in-out;
 }
 
 .image-splatter2{
@@ -55,7 +55,7 @@
     position: absolute;
     top:0px;
     right: 100px;
-    animation: splatterEffect3 1s ease-in;
+    animation: splatterEffect3 .5s ease-in;
 }
 
 .hero-cartoon-image__wrapper{
@@ -102,7 +102,7 @@
     0%{
         opacity: 0;
     }
-    70%,100%{
+    50%,100%{
         opacity: 1;
     }
 }
@@ -112,7 +112,7 @@
     0%{
         opacity: 0;
     }
-    90%,100%{
+    80%,100%{
         opacity: 1;
     }
 }
