@@ -50,7 +50,6 @@
 }
 .description-list__wrapper ul{
     list-style: none;
-    
 }
 
 .description-list__wrapper ul button{
@@ -82,7 +81,26 @@
     width: 300px;
     height: 450px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 0px 0.8px;
+    /* animation: testest2 1s ease-in; */
 }
+
+
+.description-texts-container__after{
+    opacity: 0;
+    width: 300px;
+    height: 450px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 0px 0.8px;
+}
+
+@keyframes opacityEffect{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
 
 .description-texts__subheader{
     font-size: 13px;
