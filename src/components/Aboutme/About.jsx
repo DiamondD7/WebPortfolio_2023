@@ -7,10 +7,18 @@ const Description = () => {
       <div className="description__wrapper">
         <div className="description-list__wrapper">
           <ul>
-            <li>Skills</li>
-            <li>Hobbies</li>
-            <li>Experience</li>
-            <li>Study</li>
+            <li>
+              <button>Skills</button>
+            </li>
+            <li>
+              <button>Hobbies</button>
+            </li>
+            <li>
+              <button>Experience</button>
+            </li>
+            <li>
+              <button>Study</button>
+            </li>
           </ul>
         </div>
         <div className="description-container__wrapper">

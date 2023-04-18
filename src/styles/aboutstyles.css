@@ -53,6 +53,14 @@
     
 }
 
+.description-list__wrapper ul button{
+    border: none;
+    background-color: transparent;
+    font-size: 20px;
+    color: #F3F3F3;
+    cursor: pointer;
+}
+
 .description-list__wrapper ul li{
     margin-top: 25px; 
     letter-spacing: 1px;
