@@ -41,7 +41,6 @@ const Home = () => {
       </div>
       <div className="aboutme-container">
         <About />
-        {/* <Aboutme /> */}
       </div>
     </div>
   );
