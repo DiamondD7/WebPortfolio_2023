@@ -45,10 +45,7 @@ const Description = () => {
               </button>
             </li>
             <li>
-              <button>Experience</button>
-            </li>
-            <li>
-              <button>Study</button>
+              <button>Testimonials</button>
             </li>
           </ul>
         </div>
