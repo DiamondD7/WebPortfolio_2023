@@ -17,11 +17,15 @@ const ProjectContents = () => {
           </div>
           <div className="content-project-sumamry__wrapper">
             <p className="content-project-summary_one">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora,
-              dignissimos enim. Sit deserunt dolorum est fuga ex magni veniam et
-              aut? Voluptate asperiores autem porro illo, illum minus facilis
-              repellendus.
+              I have cloned the Netflix application that has the ability to play
+              videos with dynamic hero that always change when the page is
+              refreshed and recieves data from the api provided by TMBD. This
+              application is built using ReactJS.
             </p>
+            <div className="content-project__buttons">
+              <button className="content-btn__viewproject">View project</button>
+              <button className="content-btn__viewcode">View code</button>
+            </div>
           </div>
         </div>
 
@@ -40,6 +44,10 @@ const ProjectContents = () => {
               aut? Voluptate asperiores autem porro illo, illum minus facilis
               repellendus.
             </p>
+            <div className="content-project__buttons">
+              <button className="content-btn__viewproject">View project</button>
+              <button className="content-btn__viewcode">View code</button>
+            </div>
           </div>
         </div>
         <div className="contents__wrapper">
@@ -57,6 +65,10 @@ const ProjectContents = () => {
               aut? Voluptate asperiores autem porro illo, illum minus facilis
               repellendus.
             </p>
+            <div className="content-project__buttons">
+              <button className="content-btn__viewproject">View project</button>
+              <button className="content-btn__viewcode">View code</button>
+            </div>
           </div>
         </div>
       </div>

@@ -66,4 +66,36 @@
     padding: 10px;
 }
 
+
+.content-project__buttons{
+    position: relative;
+    bottom: -250px;
+    left: 0;
+}
+
+
+.content-btn__viewproject{
+    font-size: 11px;
+    text-transform: uppercase;
+    padding: 1px 10px;
+
+    color: #f3f3f3;
+    background-color: #5e17eb;
+    border-radius: 10px;
+    border: 1px solid #5e17eb;
+    margin-right: 10px;
+
+    cursor: pointer;
+}
+
+.content-btn__viewcode{
+    font-size: 11px;
+    text-transform: uppercase;
+    padding: 1px 10px;
+    border: none;
+    background-color: transparent;
+
+    cursor: pointer;
+}
+
 /*  */
