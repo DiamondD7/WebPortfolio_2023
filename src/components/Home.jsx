@@ -8,6 +8,7 @@ import "../styles/homestyles.css";
 import Aboutme from "./Aboutme/Aboutme";
 import SocialMediaIcons from "./SocialMediaIcons";
 import About from "./Aboutme/About";
+import Projects from "./Projects/Projects";
 const Home = () => {
   const [menuClicked, setMenuClicked] = useState(null);
   return (
@@ -41,6 +42,10 @@ const Home = () => {
       </div>
       <div className="aboutme-container">
         <About />
+      </div>
+
+      <div>
+        <Projects />
       </div>
     </div>
   );

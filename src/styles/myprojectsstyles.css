@@ -1,0 +1,15 @@
+.project-title__wrapper{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.project-title__text{
+    font-size: 40px;
+}
+
+.project-paragraph__text{
+    display: inline-block;
+    color: rgba(0, 0, 0, 0.4);
+    width: 500px;   
+    margin-top: 30px;
+}
