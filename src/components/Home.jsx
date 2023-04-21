@@ -1,4 +1,4 @@
-import React, { useState, useRef } from "react";
+import React, { useState, useRef, useEffect } from "react";
 import Hero from "./Hero";
 import { FiMenu, FiX } from "react-icons/fi";
 
@@ -21,6 +21,15 @@ const Home = () => {
   const scrollToComponent = (index) => {
     myRef[index].current.scrollIntoView();
   };
+
+  useEffect(() => {
+    var body = document.getElementById("--body");
+    if (menuClicked === true) {
+      body.style.overflow = "hidden";
+    } else {
+      body.style.overflow = "auto";
+    }
+  }, [menuClicked]);
   return (
     <div>
       <div
