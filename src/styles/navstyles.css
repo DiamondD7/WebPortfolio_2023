@@ -1,26 +1,45 @@
 .nav-container__wrapper{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    padding: 20px;
+}
+
+.contanctme__text{
+    color: #f3f3f3;
+    font-size: 40px;
+}
+
+.form-container{
+    color: #f3f3f3;
+}
+
+.form-container label{
+    font-size: 24px;
+}
+
+.form-container input{
+    width: 350px;
+}
+
+.message-input{
+    height: 200px;
+    width: 350px;
+}
+
+.btn-container__wrapper{
+    display: flex;
+    justify-content: center;
 }
 
 
-.contactmelogo__image{
-    width: 300px;
-}
-
-.contactmelogo__btn{
-    background-color: transparent;
+.btn-submit{
+    padding: 0 40px;
+    font-size: 15px;
+    border-radius: 10px;
+    background-color: #5e17eb;
+    color: #f3f3f3;
     border: none;
+
     cursor: pointer;
-}
-
-
-.cvresumelogo__image{
-    width: 300px;
-}
-
-.cvresumelogo__btn{
-    background-color: transparent;
-    border: none;
-    cursor: pointer;
+    margin-top: 20px;
 }
