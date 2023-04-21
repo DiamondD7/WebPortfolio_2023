@@ -24,6 +24,8 @@
     margin-top: 20px;
 
     font-size: 15px;
+
+    font-weight: 500;
 }
 
 .footer-ul__wrapper{
@@ -34,6 +36,19 @@
 .footer-ul__wrapper li{
     color: #f3f3f3;
     margin-top: 10px;
+}
+
+.footer-ul__wrapper li button{
+    background-color: transparent;
+    border: none;
+    color: #f3f3f3;
+    font-size: 15px;
+}
+
+.footer-ul__wrapper li a{
+    text-decoration: none;
+    color: #f3f3f3;
+    font-size: 15px;
 }
 
 .footer-logo{

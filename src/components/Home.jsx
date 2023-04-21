@@ -87,11 +87,35 @@ const Home = () => {
             </ul>
 
             <ul className="footer-ul__wrapper">
-              <li>Instagram</li>
-              <li>Facebook</li>
-              <li>LinkedIn</li>
-              <li>GitHub</li>
-              <li>Contact me</li>
+              <li>
+                <a href="https://www.instagram.com/diamondcde/" target="_blank">
+                  Instagram
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.facebook.com/aaron.sierra.75"
+                  target="_blank"
+                >
+                  Facebook
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/aaron-sierra-0b2106224/"
+                  target="_blank"
+                >
+                  LinkedIn
+                </a>
+              </li>
+              <li>
+                <a href="https://github.com/DiamondD7" target="_blank">
+                  GitHub
+                </a>
+              </li>
+              <li>
+                <a>Contact me</a>
+              </li>
             </ul>
 
             <div>
