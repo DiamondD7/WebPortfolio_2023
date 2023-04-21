@@ -1,4 +1,9 @@
-import React, { useState } from "react";
+import React, {
+  useState,
+  forwardRef,
+  useImperativeHandle,
+  useRef,
+} from "react";
 import Hobbies from "./Hobbies";
 
 import "../../styles/aboutstyles.css";
@@ -120,9 +125,16 @@ const Description = () => {
   );
 };
 
-const About = () => {
+const About = forwardRef((props, ref) => {
+  const myRef = useRef(null);
+
+  useImperativeHandle(ref, () => ({
+    scrollIntoView: () => {
+      myRef.current.scrollIntoView({ behavior: "smooth" });
+    },
+  }));
   return (
-    <div>
+    <div ref={myRef}>
       <div className="about-container__wrapper">
         <h1 className="about-header__text">
           Hello, I am Aaron. Nice to meet you.
@@ -139,6 +151,6 @@ const About = () => {
       </div>
     </div>
   );
-};
+});
 
 export default About;

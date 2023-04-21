@@ -1,40 +1,40 @@
-import React, { useState, useEffect } from "react";
+import React, {
+  useState,
+  useEffect,
+  useRef,
+  forwardRef,
+  useImperativeHandle,
+} from "react";
 import Weblogo from "../assets/images/AJS-logo.png";
 import Splatter from "../assets/images/splatter.png";
 import HeroCartoon from "../assets/images/Hero-cartoon.png";
 import Books from "../assets/images/books.png";
 
 import "../styles/herostyles.css";
-const Hero = () => {
-  const NameText = <span style={{ color: "#5e17eb" }}>Aaron Sierra</span>;
-
+const Hero = forwardRef((props, ref) => {
   const [startAnim, setStartAnim] = useState(false);
+
+  const myRef = useRef(null);
+
+  useImperativeHandle(ref, () => ({
+    scrollIntoView: () => {
+      myRef.current.scrollIntoView({ behavior: "smooth" });
+    },
+  }));
 
   useEffect(() => {
     setTimeout(() => {
       setStartAnim(true);
     }, 1000);
   }, []);
+
   return (
-    <div>
+    <div ref={myRef}>
       <div className="hero-container__wrapper">
         <div className="hero-header__wrapper">
           <div className="hero-image__wrapper">
             <img className="AJ-logo" src={Weblogo} alt="AJS" />
           </div>
-          {/* <div className="hero-texts_wrapper">
-            <p className="hero-header__text">Welcome to my Portfolio.</p>
-            <p className="hero-subheader__text">
-              Hello my name is {NameText}, I am a Fullstack Web Developer. This
-              is where you'll find my latest and greatest web development
-              projects. I hope you enjoy exploring and give me a little feedback
-              after, Thank you
-            </p>
-            <div className="hero-btns_wrapper">
-              <button className="hero-btn__about">About</button>
-              <button className="hero-btn__portfolio">Portfolio</button>
-            </div>
-          </div> */}
           <div className="hero-cartoon-image__wrapper">
             <img
               className={`hero-cartoon__image ${
@@ -65,6 +65,6 @@ const Hero = () => {
       </div>
     </div>
   );
-};
+});
 
 export default Hero;

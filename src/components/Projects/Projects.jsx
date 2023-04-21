@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useRef, forwardRef, useImperativeHandle } from "react";
 import NetF from "../../assets/ProjectImages/nf.png";
 
 import "../../styles/myprojectsstyles.css";
@@ -76,9 +76,16 @@ const ProjectContents = () => {
   );
 };
 
-const Projects = () => {
+const Projects = forwardRef((props, ref) => {
+  const myRef = useRef(null);
+
+  useImperativeHandle(ref, () => ({
+    scrollIntoView: () => {
+      myRef.current.scrollIntoView({ behavior: "smooth" });
+    },
+  }));
   return (
-    <div>
+    <div ref={myRef}>
       <div className="project-title__wrapper">
         <h1 className="project-title__text">My Projects</h1>
         <p className="project-paragraph__text">
@@ -94,6 +101,6 @@ const Projects = () => {
       </div>
     </div>
   );
-};
+});
 
 export default Projects;

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
 import Hero from "./Hero";
 import { FiMenu, FiX } from "react-icons/fi";
 
@@ -9,8 +9,18 @@ import Aboutme from "./Aboutme/Aboutme";
 import SocialMediaIcons from "./SocialMediaIcons";
 import About from "./Aboutme/About";
 import Projects from "./Projects/Projects";
+import Footer from "./Footer/Footer";
+
+import FooterLogo from "../assets/images/footerlogo.png";
+
+import "../styles/footerstyles.css";
 const Home = () => {
   const [menuClicked, setMenuClicked] = useState(null);
+  const myRef = [useRef(null), useRef(null), useRef(null)];
+
+  const scrollToComponent = (index) => {
+    myRef[index].current.scrollIntoView();
+  };
   return (
     <div>
       <div
@@ -37,15 +47,58 @@ const Home = () => {
         </button>
       </div>
       <div className="hero-container">
-        <Hero />
+        <Hero ref={myRef[0]} />
         <SocialMediaIcons />
       </div>
       <div className="aboutme-container">
-        <About />
+        <About ref={myRef[1]} />
       </div>
 
       <div>
-        <Projects />
+        <Projects ref={myRef[2]} />
+      </div>
+
+      <div>
+        {/* <Footer /> */}
+        <div className="footer-container__wrapper">
+          <div className="footer-title__wrapper">
+            <div>
+              <h1 className="footer-title__header">Let's work together</h1>
+              <div>
+                <h3 className="footer-title__quote">
+                  I may be unfinished, but I am not stagnant - I am a work in
+                  progress, constantly evolving and growing.
+                </h3>
+              </div>
+            </div>
+
+            <ul className="footer-ul__wrapper">
+              <li>
+                <button onClick={() => scrollToComponent(0)}>Home</button>
+              </li>
+              <li>
+                <button onClick={() => scrollToComponent(1)}>About</button>
+              </li>
+              <li>
+                <button onClick={() => scrollToComponent(2)}>Projects</button>
+              </li>
+              <li>Skills</li>
+              <li>Testimonials</li>
+            </ul>
+
+            <ul className="footer-ul__wrapper">
+              <li>Instagram</li>
+              <li>Facebook</li>
+              <li>LinkedIn</li>
+              <li>GitHub</li>
+              <li>Contact me</li>
+            </ul>
+
+            <div>
+              <img className="footer-logo" alt="FooterLogo" src={FooterLogo} />
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
