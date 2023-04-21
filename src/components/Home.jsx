@@ -13,10 +13,15 @@ import "../styles/homestyles.css";
 import "../styles/footerstyles.css";
 const Home = () => {
   const [menuClicked, setMenuClicked] = useState(null);
-  const myRef = [useRef(null), useRef(null), useRef(null)];
+  const myRef = [useRef(null), useRef(null), useRef(null), useRef(null)];
 
   const scrollToComponent = (index) => {
     myRef[index].current.scrollIntoView();
+  };
+
+  const scrollToContact = (index) => {
+    myRef[index].current.scrollIntoView();
+    setMenuClicked(!menuClicked);
   };
 
   useEffect(() => {
@@ -38,7 +43,7 @@ const Home = () => {
             : "overlayClose"
         }
       >
-        <Nav />
+        <Nav ref={myRef[3]} />
       </div>
       <div className="hamburgermenu__wrapper">
         <button
@@ -120,7 +125,7 @@ const Home = () => {
                 </a>
               </li>
               <li>
-                <a>Contact me</a>
+                <button onClick={() => scrollToContact(3)}>Contact me</button>
               </li>
             </ul>
 

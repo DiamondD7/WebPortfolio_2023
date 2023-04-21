@@ -1,9 +1,16 @@
-import React, { useRef } from "react";
+import React, { useRef, forwardRef, useImperativeHandle } from "react";
 import emailjs from "@emailjs/browser";
 
 import "../../styles/navstyles.css";
-const Nav = () => {
+const Nav = forwardRef((props, ref) => {
   const form = useRef();
+  const myRef = useRef(null);
+
+  useImperativeHandle(ref, () => ({
+    scrollIntoView: () => {
+      myRef.current.scrollIntoView({ behavior: "smooth" });
+    },
+  }));
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -27,7 +34,7 @@ const Nav = () => {
     e.target.reset();
   };
   return (
-    <div>
+    <div ref={myRef}>
       <div className="nav-container__wrapper">
         <div>
           <h1 className="contanctme__text">Contact me</h1>
@@ -63,6 +70,6 @@ const Nav = () => {
       </div>
     </div>
   );
-};
+});
 
 export default Nav;
