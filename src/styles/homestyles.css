@@ -19,6 +19,12 @@
     cursor: pointer;
 }
 
+
+.phone-icon{
+    transform: rotate(-110deg);
+}
+
+
 .overlayNone{
     position: absolute;
     top: -100%;
