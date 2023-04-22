@@ -98,4 +98,9 @@
     cursor: pointer;
 }
 
+
+.fitImage{
+    object-position: left;
+}
+
 /*  */
