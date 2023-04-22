@@ -50,6 +50,7 @@
 
 .content-project-sumamry__wrapper{
     width: 500px;
+    
 }
 
 .content-project_one{
@@ -66,6 +67,7 @@
     padding: 10px;
 }
 
+/* BTNS POSITIONING - START */
 
 .content-project__buttons{
     position: relative;
@@ -73,6 +75,39 @@
     left: 0;
 }
 
+.twoBtns{
+    position: relative;
+    bottom: -130px;
+    left: 0;
+}
+
+.threeBtns{
+    position: relative;
+    bottom: -235px;
+    left: 0;
+}
+
+.fourBtns{
+    position: relative;
+    bottom: -275px;
+    left: 0;
+}
+
+
+.fiveBtns{
+    position: relative;
+    bottom: -169px;
+    left: 0;
+}
+
+.sixBtns{
+    position: relative;
+    bottom: -275px;
+    left: 0;
+}
+
+
+/* BTNS POSITIONING - END */
 
 .content-btn__viewproject{
     font-size: 11px;

@@ -27,7 +27,7 @@ const ProjectContents = () => {
               refreshed and recieves data from the api provided by TMBD. This
               application is built using ReactJS.
             </p>
-            <div className="content-project__buttons">
+            <div className="content-project__buttons oneBtns">
               <button className="content-btn__viewproject">View project</button>
               <button className="content-btn__viewcode">View code</button>
             </div>
@@ -44,12 +44,17 @@ const ProjectContents = () => {
           </div>
           <div className="content-project-sumamry__wrapper">
             <p className="content-project-summary_one">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora,
-              dignissimos enim. Sit deserunt dolorum est fuga ex magni veniam et
-              aut? Voluptate asperiores autem porro illo, illum minus facilis
-              repellendus.
+              This project is a personal e-commerce project consuming its own
+              node.js API. This is the client side of the website and there is
+              another admin side of the website where admins can perform CRUD
+              operations and control the data of the website. This was made
+              using the M-E-R-N Stack. Additionally, this project is made just
+              for myself and my learning, that is why it is only partially
+              completed. The 'Men' and 'Women' sections are the only ones
+              working and populated by the API. FYI: Wait for the data to load
+              around 2 mins.
             </p>
-            <div className="content-project__buttons">
+            <div className="content-project__buttons twoBtns">
               <button className="content-btn__viewproject">View project</button>
               <button className="content-btn__viewcode">View code</button>
             </div>
@@ -66,12 +71,13 @@ const ProjectContents = () => {
           </div>
           <div className="content-project-sumamry__wrapper">
             <p className="content-project-summary_one">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora,
-              dignissimos enim. Sit deserunt dolorum est fuga ex magni veniam et
-              aut? Voluptate asperiores autem porro illo, illum minus facilis
-              repellendus.
+              This project is the admin part of the e-commerce website where
+              only authorised personel have access, have the power to perform
+              CRUD operations and have full control of the data FYI: Wait for
+              the data to load around 2 mins. FYI: Wait for the data to load
+              around 2 mins.
             </p>
-            <div className="content-project__buttons">
+            <div className="content-project__buttons threeBtns">
               <button className="content-btn__viewproject">View project</button>
               <button className="content-btn__viewcode">View code</button>
             </div>
@@ -88,12 +94,11 @@ const ProjectContents = () => {
           </div>
           <div className="content-project-sumamry__wrapper">
             <p className="content-project-summary_one">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora,
-              dignissimos enim. Sit deserunt dolorum est fuga ex magni veniam et
-              aut? Voluptate asperiores autem porro illo, illum minus facilis
-              repellendus.
+              I am making this photography portfolio website for a client. As of
+              right now, I am still working on this project; working closely
+              with the client and fulfilling my client's needs and wants.
             </p>
-            <div className="content-project__buttons">
+            <div className="content-project__buttons fourBtns">
               <button className="content-btn__viewproject">View project</button>
               <button className="content-btn__viewcode">View code</button>
             </div>
@@ -110,12 +115,15 @@ const ProjectContents = () => {
           </div>
           <div className="content-project-sumamry__wrapper">
             <p className="content-project-summary_one">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora,
-              dignissimos enim. Sit deserunt dolorum est fuga ex magni veniam et
-              aut? Voluptate asperiores autem porro illo, illum minus facilis
-              repellendus.
+              This application is a personal finance tracker app, where the user
+              have the ability to manually input their transaction whenever they
+              want. Or they could also use a .CSV file exported from their bank
+              statement and the app will convert it to json format where it is
+              readable for the API. The application can provide graph insight
+              and details about the biggest expense and your total savings
+              overall.
             </p>
-            <div className="content-project__buttons">
+            <div className="content-project__buttons fiveBtns">
               <button className="content-btn__viewproject">View project</button>
               <button className="content-btn__viewcode">View code</button>
             </div>
@@ -132,12 +140,11 @@ const ProjectContents = () => {
           </div>
           <div className="content-project-sumamry__wrapper">
             <p className="content-project-summary_one">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora,
-              dignissimos enim. Sit deserunt dolorum est fuga ex magni veniam et
-              aut? Voluptate asperiores autem porro illo, illum minus facilis
-              repellendus.
+              This project is focused on the CRUD operations, where users can
+              add their daily tasks. This is made using .Net Core Web API, MS
+              SQL Server, Reactjs and It is hosted in Azure.
             </p>
-            <div className="content-project__buttons">
+            <div className="content-project__buttons sixBtns">
               <button className="content-btn__viewproject">View project</button>
               <button className="content-btn__viewcode">View code</button>
             </div>
