@@ -3,6 +3,8 @@ import NetF from "../../assets/ProjectImages/nf.png";
 import KaliWeb from "../../assets/ProjectImages/kaliphotography.png";
 import ShopNZ from "../../assets/ProjectImages/shopNZ.png";
 import ShopAdmin from "../../assets/ProjectImages/shopAdmin.png";
+import FinanceTracker from "../../assets/ProjectImages/financetrackerss.png";
+import ToDo from "../../assets/ProjectImages/todoscreenshot.png";
 
 import "../../styles/myprojectsstyles.css";
 
@@ -37,7 +39,7 @@ const ProjectContents = () => {
             <img
               className="content-project_one"
               src={ShopNZ}
-              alt="netflix-project"
+              alt="ShopLiftClient-project"
             />
           </div>
           <div className="content-project-sumamry__wrapper">
@@ -59,7 +61,7 @@ const ProjectContents = () => {
             <img
               className="content-project_one fitImage"
               src={ShopAdmin}
-              alt="netflix-project"
+              alt="ShopLiftAdmin-project"
             />
           </div>
           <div className="content-project-sumamry__wrapper">
@@ -81,7 +83,51 @@ const ProjectContents = () => {
             <img
               className="content-project_one"
               src={KaliWeb}
-              alt="netflix-project"
+              alt="KaliWeb-project"
+            />
+          </div>
+          <div className="content-project-sumamry__wrapper">
+            <p className="content-project-summary_one">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora,
+              dignissimos enim. Sit deserunt dolorum est fuga ex magni veniam et
+              aut? Voluptate asperiores autem porro illo, illum minus facilis
+              repellendus.
+            </p>
+            <div className="content-project__buttons">
+              <button className="content-btn__viewproject">View project</button>
+              <button className="content-btn__viewcode">View code</button>
+            </div>
+          </div>
+        </div>
+
+        <div className="contents__wrapper">
+          <div>
+            <img
+              className="content-project_one"
+              src={FinanceTracker}
+              alt="Finance-project"
+            />
+          </div>
+          <div className="content-project-sumamry__wrapper">
+            <p className="content-project-summary_one">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora,
+              dignissimos enim. Sit deserunt dolorum est fuga ex magni veniam et
+              aut? Voluptate asperiores autem porro illo, illum minus facilis
+              repellendus.
+            </p>
+            <div className="content-project__buttons">
+              <button className="content-btn__viewproject">View project</button>
+              <button className="content-btn__viewcode">View code</button>
+            </div>
+          </div>
+        </div>
+
+        <div className="contents__wrapper">
+          <div>
+            <img
+              className="content-project_one"
+              src={ToDo}
+              alt="ToDo-project"
             />
           </div>
           <div className="content-project-sumamry__wrapper">
