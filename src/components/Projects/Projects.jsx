@@ -35,7 +35,13 @@ const ProjectContents = () => {
               >
                 View project
               </a>
-              <button className="content-btn__viewcode">View code</button>
+              <a
+                className="content-btn__viewcode"
+                href="https://github.com/DiamondD7/Netflix-clone"
+                target="_blank"
+              >
+                View code
+              </a>
             </div>
           </div>
         </div>
