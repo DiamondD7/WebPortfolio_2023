@@ -67,8 +67,20 @@ const ProjectContents = () => {
               around 2 mins.
             </p>
             <div className="content-project__buttons twoBtns">
-              <button className="content-btn__viewproject">View project</button>
-              <button className="content-btn__viewcode">View code</button>
+              <a
+                className="content-btn__viewproject"
+                href="https://shopliftnzclient.azurewebsites.net/"
+                target="_blank"
+              >
+                View project
+              </a>
+              <a
+                className="content-btn__viewcode"
+                href="https://github.com/DiamondD7/shoplift_client"
+                target="_blank"
+              >
+                View code
+              </a>
             </div>
           </div>
         </div>
@@ -90,8 +102,20 @@ const ProjectContents = () => {
               around 2 mins.
             </p>
             <div className="content-project__buttons threeBtns">
-              <button className="content-btn__viewproject">View project</button>
-              <button className="content-btn__viewcode">View code</button>
+              <a
+                className="content-btn__viewproject"
+                href="https://shopliftnzadmin.azurewebsites.net/"
+                target="_blank"
+              >
+                View project
+              </a>
+              <a
+                className="content-btn__viewcode"
+                href="https://github.com/DiamondD7/shoplift_admin"
+                target="_blank"
+              >
+                View code
+              </a>
             </div>
           </div>
         </div>
