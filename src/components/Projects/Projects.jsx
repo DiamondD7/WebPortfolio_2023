@@ -28,7 +28,13 @@ const ProjectContents = () => {
               application is built using ReactJS.
             </p>
             <div className="content-project__buttons oneBtns">
-              <button className="content-btn__viewproject">View project</button>
+              <a
+                className="content-btn__viewproject"
+                href="https://nfcloneweb.azurewebsites.net/"
+                target="_blank"
+              >
+                View project
+              </a>
               <button className="content-btn__viewcode">View code</button>
             </div>
           </div>
