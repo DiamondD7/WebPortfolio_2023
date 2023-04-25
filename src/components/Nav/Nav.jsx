@@ -1,10 +1,18 @@
-import React, { useRef, forwardRef, useImperativeHandle } from "react";
+import React, {
+  useRef,
+  forwardRef,
+  useImperativeHandle,
+  useState,
+  useEffect,
+} from "react";
 import emailjs from "@emailjs/browser";
 
 import "../../styles/navstyles.css";
 const Nav = forwardRef((props, ref) => {
   const form = useRef();
   const myRef = useRef(null);
+
+  const [showSent, setShowSent] = useState(null);
 
   useImperativeHandle(ref, () => ({
     scrollIntoView: () => {
@@ -25,14 +33,29 @@ const Nav = forwardRef((props, ref) => {
       .then(
         (result) => {
           console.log(result.text);
+          setTimeout(() => {
+            setShowSent(true);
+          }, 10);
+
+          setTimeout(() => {
+            setShowSent(null);
+          }, 5000);
         },
         (error) => {
           console.log(error.text);
+          setTimeout(() => {
+            setShowSent(false);
+          }, 500);
+
+          setTimeout(() => {
+            setShowSent(null);
+          }, 4000);
         }
       );
 
     e.target.reset();
   };
+
   return (
     <div ref={myRef}>
       <div className="nav-container__wrapper">
@@ -58,6 +81,7 @@ const Nav = forwardRef((props, ref) => {
               id="msg"
               name="message"
               className="message-input"
+              placeholder="what are your requests..."
             ></textarea>
 
             <div className="btn-container__wrapper">
@@ -66,6 +90,20 @@ const Nav = forwardRef((props, ref) => {
               </button>
             </div>
           </form>
+
+          {showSent === true ? (
+            <div className="success-fail__wrapper">
+              <p id="success-p" className="success-contact">
+                SENT!
+              </p>
+            </div>
+          ) : showSent === false ? (
+            <div>
+              <p className="fail-contact">ERROR!</p>
+            </div>
+          ) : (
+            ""
+          )}
         </div>
       </div>
     </div>

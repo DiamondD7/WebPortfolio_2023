@@ -43,3 +43,31 @@
     cursor: pointer;
     margin-top: 20px;
 }
+
+/* SENT SUCCESS-FAIL */
+
+.success-fail__wrapper{
+    position: absolute;
+    top:50px;
+    right: 650px;
+    
+}
+
+.success-contact{
+    opacity: 1;
+    color: limegreen;
+    /* animation: successFailEffect 1s ease-in; */
+    transition: opacity 1s ease-in-out;
+}
+
+.fail-contact{
+    color: red;
+    animation: successFailEffect 1s ease-in;
+}
+
+.fadeout{
+    opacity: 0;
+    color: limegreen;
+}
+
+/*  */
