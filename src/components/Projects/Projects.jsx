@@ -5,6 +5,7 @@ import ShopNZ from "../../assets/ProjectImages/shopNZ.png";
 import ShopAdmin from "../../assets/ProjectImages/shopAdmin.png";
 import FinanceTracker from "../../assets/ProjectImages/financetrackerss.png";
 import ToDo from "../../assets/ProjectImages/todoscreenshot.png";
+import Vrooms from "../../assets/ProjectImages/vroomss.jpg";
 
 import "../../styles/myprojectsstyles.css";
 
@@ -135,8 +136,56 @@ const ProjectContents = () => {
               with the client and fulfilling my client's needs and wants.
             </p>
             <div className="content-project__buttons fourBtns">
-              <button className="content-btn__viewproject">View project</button>
-              <button className="content-btn__viewcode">View code</button>
+              <a
+                className="content-btn__viewcode"
+                href="https://github.com/DiamondD7/kaliphotography"
+                target="_blank"
+              >
+                View code
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div className="contents__wrapper">
+          <div>
+            <img
+              className="content-project_one"
+              src={Vrooms}
+              alt="Vrooms-project"
+            />
+          </div>
+          <div className="content-project-sumamry__wrapper">
+            <p className="content-project-summary_one">
+              This is another personal project that I am working on. The
+              technologies used here are ReactJS, Asp.Net Core, C#, MS SQL
+              Server. I decided to make this e-commerce project because it can
+              help me improve on and understand web application stages and
+              cycles that come into play. I am working on making another
+              component and implementing payment methods.
+            </p>
+            <div className="content-project__buttons sevenBtns">
+              <a
+                className="content-btn__viewproject"
+                href="https://vroomclient.azurewebsites.net/"
+                target="_blank"
+              >
+                View project
+              </a>
+              <a
+                className="content-btn__viewcode"
+                href="https://github.com/DiamondD7/vroom_client"
+                target="_blank"
+              >
+                View code
+              </a>
+              <a
+                className="content-btn__viewcode"
+                href="https://github.com/DiamondD7/vroom_server"
+                target="_blank"
+              >
+                View backend code
+              </a>
             </div>
           </div>
         </div>
@@ -160,8 +209,27 @@ const ProjectContents = () => {
               overall.
             </p>
             <div className="content-project__buttons fiveBtns">
-              <button className="content-btn__viewproject">View project</button>
-              <button className="content-btn__viewcode">View code</button>
+              <a
+                className="content-btn__viewproject"
+                href="https://financetrackerclient.azurewebsites.net/"
+                target="_blank"
+              >
+                View project
+              </a>
+              <a
+                className="content-btn__viewcode"
+                href="https://github.com/DiamondD7/financeClient"
+                target="_blank"
+              >
+                View code
+              </a>
+              <a
+                className="content-btn__viewcode"
+                href="https://github.com/DiamondD7/FinanceServer"
+                target="_blank"
+              >
+                View backend code
+              </a>
             </div>
           </div>
         </div>
@@ -181,8 +249,27 @@ const ProjectContents = () => {
               SQL Server, Reactjs and It is hosted in Azure.
             </p>
             <div className="content-project__buttons sixBtns">
-              <button className="content-btn__viewproject">View project</button>
-              <button className="content-btn__viewcode">View code</button>
+              <a
+                className="content-btn__viewproject"
+                href="https://todolistc.azurewebsites.net/"
+                target="_blank"
+              >
+                View project
+              </a>
+              <a
+                className="content-btn__viewcode"
+                href="https://github.com/DiamondD7/todolist_client"
+                target="_blank"
+              >
+                View code
+              </a>
+              <a
+                className="content-btn__viewcode"
+                href="https://github.com/DiamondD7/todolist_backend"
+                target="_blank"
+              >
+                View backend code
+              </a>
             </div>
           </div>
         </div>

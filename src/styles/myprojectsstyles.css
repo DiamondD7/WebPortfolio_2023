@@ -106,6 +106,12 @@
     left: 0;
 }
 
+.sevenBtns{
+    position: relative;
+    bottom: -191px;
+    left: 0;
+}
+
 
 /* BTNS POSITIONING - END */
 
@@ -131,6 +137,7 @@
     border: none;
     background-color: transparent;
     text-decoration: none;
+    color: #202020;
 
     cursor: pointer;
 }
