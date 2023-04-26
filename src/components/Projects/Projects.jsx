@@ -161,9 +161,10 @@ const ProjectContents = () => {
               technologies used here are ReactJS, Asp.Net Core, C#, MS SQL
               Server. I decided to make this e-commerce project because it can
               help me improve on and understand web application stages and
-              cycles that come into play. I am working on making another
-              component and implementing payment methods.
+              cycles that come into play.
             </p>
+            <br />
+            <br />
             <div className="content-project__buttons sevenBtns">
               <a
                 className="content-btn__viewproject"
