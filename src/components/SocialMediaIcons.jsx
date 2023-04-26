@@ -6,9 +6,18 @@ const SocialMediaIcons = () => {
   return (
     <div>
       <div className="socialmedia-container__wrapper">
-        <FiInstagram size={"25px"} color="#202020" />
-        <FiGithub size={"25px"} color="#202020" />
-        <FiLinkedin size={"25px"} color="#202020" />
+        <a href="https://www.instagram.com/diamondcde/" target="_blank">
+          <FiInstagram size={"25px"} color="#202020" />
+        </a>
+        <a href="https://github.com/DiamondD7" target="_blank">
+          <FiGithub size={"25px"} color="#202020" />
+        </a>
+        <a
+          href="https://www.linkedin.com/in/aaron-sierra-0b2106224/"
+          target="_blank"
+        >
+          <FiLinkedin size={"25px"} color="#202020" />
+        </a>
       </div>
     </div>
   );
