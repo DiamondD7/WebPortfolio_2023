@@ -49,9 +49,6 @@ const Description = () => {
                 Hobbies
               </button>
             </li>
-            <li>
-              <button>Testimonials</button>
-            </li>
           </ul>
         </div>
         <div className="description-container__wrapper">
