@@ -292,10 +292,9 @@ const Projects = forwardRef((props, ref) => {
       <div className="project-title__wrapper">
         <h1 className="project-title__text">My Projects</h1>
         <p className="project-paragraph__text">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur
-          quaerat veritatis fugiat maxime. Voluptatem hic veniam libero ea
-          molestias odit nobis quisquam qui, nesciunt fuga. Molestiae itaque at
-          asperiores facilis.
+          The process of designing and developing projects from start to finish
+          not only satisfies my passion for technology but also fuels my desire
+          to continuously learn and improve as a developer.
         </p>
       </div>
 
