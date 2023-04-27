@@ -1,0 +1,133 @@
+@media(max-width: 1900px){
+    /* hamburger menu ---- */
+    .hamburgermenu__wrapper{
+        margin-right: 30px;
+    }
+    /* hamburger menu ---- */
+}
+
+@media(max-width:1800px){
+
+    /*  HERO  - START */
+    .hero-image__wrapper{
+        margin: 100px auto 0 auto;
+    }
+
+    .AJ-logo{
+        width: 600px;
+    }
+
+    .hero-cartoon-image__wrapper{
+        position: absolute;
+        top: 586px;
+        right: 500px;
+    }
+
+    .hero-cartoon__image{
+        width: 450px;
+    }
+
+    .hero-cartoon-image2__wrapper{
+        position: absolute;
+        top: 739px;
+        left: 300px;
+    }
+
+    .hero-cartoon__image2{
+        width: 400px;
+    }
+
+
+    /* HERO  - END */
+
+
+    
+}
+
+
+@media(max-width:1600px){
+    .splatter2{
+        width: 500px;
+    }
+
+    .splatter3{
+        width: 500px;
+    }
+
+
+    .hero-cartoon-image__wrapper{
+        position: absolute;
+        top: 586px;
+        right: 300px;
+    }
+
+
+    .hero-cartoon-image2__wrapper{
+        position: absolute;
+        top: 739px;
+        left: 300px;
+    }
+
+}
+
+
+@media(max-width:1400px){
+    .splatter2{
+        width: 450px;
+    }
+
+    .splatter3{
+        width: 450px;
+    }
+
+
+    .hero-cartoon-image__wrapper{
+        position: absolute;
+        top: 586px;
+        right: 200px;
+    }
+
+
+    .hero-cartoon-image2__wrapper{
+        position: absolute;
+        top: 739px;
+        left: 200px;
+    }
+
+}
+
+
+@media(max-width:1300px){
+    .splatter2{
+        width: 400px;
+    }
+
+    .splatter3{
+        width: 400px;
+    }
+
+
+    .hero-cartoon-image__wrapper{
+        position: absolute;
+        top: 674px;
+        right: 300px;
+    }
+
+    .hero-cartoon__image{
+        width: 350px;
+    }
+
+
+    .hero-cartoon-image2__wrapper{
+        position: absolute;
+        top: 800px;
+        left: 200px;
+    }
+
+    .hero-cartoon__image2{
+        width: 300px;
+    }
+
+    /* ADD THE MENU FOR SOCIAL MEDIAS */
+
+}

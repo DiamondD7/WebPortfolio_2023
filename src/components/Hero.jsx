@@ -54,13 +54,13 @@ const Hero = forwardRef((props, ref) => {
           </div>
         </div>
         <div className="image-splatter">
-          <img src={Splatter} />
+          <img className="splatter1" src={Splatter} />
         </div>
         <div className="image-splatter2">
-          <img src={Splatter} />
+          <img className="splatter2" src={Splatter} />
         </div>
         <div className="image-splatter3">
-          <img src={Splatter} />
+          <img className="splatter3" src={Splatter} />
         </div>
       </div>
     </div>
