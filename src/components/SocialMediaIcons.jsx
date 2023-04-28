@@ -16,7 +16,7 @@ const SocialMediaIcons = () => {
           href="https://www.linkedin.com/in/aaron-sierra-0b2106224/"
           target="_blank"
         >
-          <FiLinkedin size={"25px"} color="#202020" />
+          <FiLinkedin className="linkedIn" size={"25px"} color="#202020" />
         </a>
       </div>
     </div>
