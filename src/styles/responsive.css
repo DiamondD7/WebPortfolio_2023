@@ -296,7 +296,94 @@
         left: 270px;
     }
 
+    .description-container__wrapper{
+        width: 550px;
+        height: 500px;
+        overflow: auto;
+    }
+
+    .description-texts-container{
+        width: 300px;
+        height: 500px;
+    }
+
+    .description-list__wrapper ul button{
+        font-size: 15px;
+    }
     
+    .about-header__text{
+        font-size: 30px;
+    }
+
+    .about-paragraph__text{
+        font-size: 15px;
+        width: 700px;
+    }
+
+    .hobbies-container{
+        display: block;
+   }
+
+   .footer-title__header{
+        color: #f3f3f3;
+        font-size: 30px;
+    }
+
+    .footer-title__quote{
+        text-align: start;
+        font-size: 12px;
+    }
+
+    .footer-ul__wrapper{
+        list-style: none;
+        margin-left: 10px;
+    }
+
+    .footer-ul__wrapper li{
+        margin-top: 15px;
+        font-size: 12px;
+    }
+
+    .footer-ul__wrapper li a{
+        font-size: 12px;
+    }
+
+    .footer-ul__wrapper li button{
+        font-size: 12px;
+    }
+
+    .footer-logo{
+        bottom: -2090px;
+        right: 200px;
+        width: 150px;
+    }
+    /* ADD THE MENU FOR SOCIAL MEDIAS */
+
+}
+
+
+@media(max-width:900px){
+    .hero-cartoon__image{
+        width: 250px;
+    }
+
+    .hero-cartoon-image__wrapper{
+        position: absolute;
+        top: 763px;
+        right: 150px;
+    }
+    
+    .hero-cartoon-image2__wrapper{
+        position: absolute;
+        top: 830px;
+        left: 170px;
+    }
+
+    .footer-logo{
+        bottom: -2090px;
+        right: 100px;
+        width: 150px;
+    }
     /* ADD THE MENU FOR SOCIAL MEDIAS */
 
 }
