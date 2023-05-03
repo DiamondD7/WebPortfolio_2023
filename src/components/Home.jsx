@@ -85,20 +85,6 @@ const Home = () => {
 
             <ul className="footer-ul__wrapper">
               <li>
-                <button onClick={() => scrollToComponent(0)}>Home</button>
-              </li>
-              <li>
-                <button onClick={() => scrollToComponent(1)}>About</button>
-              </li>
-              <li>
-                <button onClick={() => scrollToComponent(2)}>Projects</button>
-              </li>
-              <li>Skills</li>
-              <li>Testimonials</li>
-            </ul>
-
-            <ul className="footer-ul__wrapper">
-              <li>
                 <a href="https://www.instagram.com/diamondcde/" target="_blank">
                   Instagram
                 </a>
@@ -126,6 +112,18 @@ const Home = () => {
               </li>
               <li>
                 <button onClick={() => scrollToContact(3)}>Contact me</button>
+              </li>
+            </ul>
+
+            <ul className="footer-ul__wrapper">
+              <li>
+                <button onClick={() => scrollToComponent(0)}>Home</button>
+              </li>
+              <li>
+                <button onClick={() => scrollToComponent(1)}>About</button>
+              </li>
+              <li>
+                <button onClick={() => scrollToComponent(2)}>Projects</button>
               </li>
             </ul>
 
