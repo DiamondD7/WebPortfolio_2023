@@ -387,3 +387,128 @@
     /* ADD THE MENU FOR SOCIAL MEDIAS */
 
 }
+
+@media(max-width:800px){
+    .hero-cartoon-image__wrapper{
+        position: absolute;
+        top: 763px;
+        right: 50px;
+    }
+    
+    .hero-cartoon-image2__wrapper{
+        position: absolute;
+        top: 830px;
+        left: 170px;
+    }
+
+    .footer-title__header{
+        display: none;
+    }
+
+    .footer-title__quote{
+        display: none;
+    }
+}
+
+@media(max-width:700px){
+    .hero-cartoon-image__wrapper{
+        position: absolute;
+        top: 763px;
+        right: 50px;
+    }
+    
+    .hero-cartoon-image2__wrapper{
+        position: absolute;
+        top: 830px;
+        left: 100px;
+    }
+}
+
+@media(max-width:630px){
+    .hero-cartoon-image__wrapper{
+        position: absolute;
+        top: 763px;
+        right: 20px;
+    }
+    
+    .hero-cartoon-image2__wrapper{
+        position: absolute;
+        top: 830px;
+        left: 50px;
+    }
+}
+
+@media(max-width:545px){
+    .hero-cartoon__image{
+        width: 200px;
+    }
+
+    .hero-cartoon-image__wrapper{
+        position: absolute;
+        top: 808px;
+        right: 20px;
+    }
+    
+    .hero-cartoon-image2__wrapper{
+        position: absolute;
+        top: 830px;
+        left: 50px;
+    }
+}
+
+
+@media(max-width:500px){
+    .about-paragraph__text{
+        font-size: 13px;
+        width: 400px;
+        margin-bottom: 30px;
+
+    }
+    .hero-cartoon__image2{
+        width: 200px;
+    }
+    
+    .hero-cartoon-image2__wrapper{
+        position: absolute;
+        top: 861px;
+        left: 50px;
+    }
+}
+
+
+@media(max-width:442px){
+
+    .hero-cartoon__image2{
+        width: 200px;
+    }
+    
+    .hero-cartoon-image2__wrapper{
+        position: absolute;
+        top: 861px;
+        left: 10px;
+    }
+}
+
+
+@media(max-width:412px){
+
+    .hero-cartoon__image{
+        width: 150px;
+    }
+
+    .hero-cartoon-image__wrapper{
+        position: absolute;
+        top: 852px;
+        right: 20px;
+    }
+
+    .hero-cartoon__image2{
+        width: 150px;
+    }
+    
+    .hero-cartoon-image2__wrapper{
+        position: absolute;
+        top: 890px;
+        left: 50px;
+    }
+}
