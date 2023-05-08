@@ -939,3 +939,25 @@
         width: 150px;
     }
 }
+
+@media(max-height:670px){
+    .about-header__text{
+        font-size: 24px;
+        width: 330px;
+        margin-left: 14px;
+    }
+
+    .contents-container__wrapper{
+        display: block;
+        width:260px;
+        margin: 50px auto 0 70px;
+        height: 550px;
+    }
+
+    .footer-logo{
+        position: absolute;
+        bottom: -2450px;
+        right: 50px;
+        width: 120px;
+    }
+}

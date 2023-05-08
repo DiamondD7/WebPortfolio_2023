@@ -10,3 +10,5 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     <App />
   </React.StrictMode>
 );
+
+console.log("Hello there! Whatcha looking for in the dev tools 😉");
