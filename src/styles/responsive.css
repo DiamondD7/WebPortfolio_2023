@@ -360,7 +360,7 @@
 
     .contents-container__wrapper{
         display: block;
-    
+        width: 820px;
         overflow-x: auto;
     }
 
@@ -440,6 +440,7 @@
 
     .contents-container__wrapper{
         display: block;
+        width: 700px;
         margin: 50px auto 0 70px;
     }
 
@@ -512,6 +513,7 @@
 
     .contents-container__wrapper{
         display: block;
+        width: 500px;
         margin: 50px auto 0 70px;
     }
 
@@ -560,6 +562,15 @@
 }
 
 @media(max-width:700px){
+    .about-paragraph__text{
+        width: 500px;   
+    }
+
+    .description-container__wrapper{
+        width: 850px;
+        height: 450px;
+    }
+
     .hero-cartoon-image__wrapper{
         position: absolute;
         top: 763px;
@@ -637,7 +648,8 @@
 
     .contents-container__wrapper{
         display: block;
-        margin: 50px auto 0 70px;
+        width: 400px;
+        margin: 50px auto 0 100px;
     }
 
     .content-project_one{
@@ -695,10 +707,69 @@
         top: 830px;
         left: 50px;
     }
+
+
+
+    .contents-container__wrapper{
+        display: block;
+        margin: 50px auto 0 100px;
+    }
+
+    .content-project_one{
+        width: 200px;
+        display: none;
+    }
+
+    .contents__wrapper{
+        width:250px;
+        height: 370px;
+    }
+
+    .content-project__buttons{
+        bottom: -197px;
+    }
+
+    .twoBtns{
+        bottom: -15px;
+    }
+
+    .threeBtns{
+        bottom: -176px;
+    }
+
+    .fourBtns{
+        bottom: -233px;
+    }
+
+    .fiveBtns{
+        bottom: -95px;
+    }
+
+    .sixBtns{
+        bottom: -235px;
+    }
+
+    .sevenBtns{
+        bottom: -112px;
+    }
 }
 
 
 @media(max-width:500px){
+    .AJ-logo{
+        width: 390px;
+    }
+
+    .image-splatter2{
+        top:500px;
+        left: 10px;
+    }
+    
+    .image-splatter3{
+        top:70px;
+        right: 20px;
+    }
+
     .about-paragraph__text{
         font-size: 13px;
         width: 400px;
@@ -715,9 +786,15 @@
         left: 50px;
     }
 
+
+    .project-paragraph__text{
+        width: 400px;   
+    }
+
     .contents-container__wrapper{
         display: block;
-        margin: 50px auto 0 70px;
+        width: 300px;
+        margin: 50px auto 0 100px;
     }
 
     .content-project_one{
@@ -775,6 +852,14 @@
 
 
 @media(max-width:412px){
+    .AJ-logo{
+        width: 290px;
+        margin-top: 50px;
+         margin-right: 10px;
+    }
+    .about-paragraph__text{
+        width: 300px;   
+    }
 
     .hero-cartoon__image{
         width: 150px;
@@ -796,8 +881,15 @@
         left: 50px;
     }
 
+    .project-paragraph__text{
+        width: 300px;   
+        margin-top: 30px;
+    }
+
+
     .contents-container__wrapper{
         display: block;
+        width:300px;
         margin: 50px auto 0 70px;
         height: 550px;
     }
@@ -838,5 +930,12 @@
 
     .sevenBtns{
         bottom: -53px;
+    }
+
+    .footer-logo{
+        position: absolute;
+        bottom: -2145px;
+        right: 10px;
+        width: 150px;
     }
 }

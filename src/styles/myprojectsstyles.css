@@ -29,7 +29,7 @@
 .contents-container__wrapper{
     display: flex;
     height: 500px;
-    width: 1000px;
+    width: 900px;
     padding: 10px;
     margin: 50px auto 0 auto;
 
@@ -42,14 +42,16 @@
     height: 370px;
     border-radius: 10px;
     background-color: #5e17eb;
-    margin: 50px auto 0 60px;
+    margin: 50px auto 0 10px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
-    
+}
+
+.marLeft{
+    margin-left: 10px;
 }
 
 .content-project-sumamry__wrapper{
     width: 500px;
-    
 }
 
 .content-project_one{

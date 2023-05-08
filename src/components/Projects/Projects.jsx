@@ -47,7 +47,7 @@ const ProjectContents = () => {
           </div>
         </div>
 
-        <div className="contents__wrapper">
+        <div className="contents__wrapper marLeft">
           <div>
             <img
               className="content-project_one"
@@ -86,7 +86,7 @@ const ProjectContents = () => {
           </div>
         </div>
 
-        <div className="contents__wrapper">
+        <div className="contents__wrapper marLeft">
           <div>
             <img
               className="content-project_one fitImage"
@@ -121,7 +121,7 @@ const ProjectContents = () => {
           </div>
         </div>
 
-        <div className="contents__wrapper">
+        <div className="contents__wrapper marLeft">
           <div>
             <img
               className="content-project_one"
@@ -147,7 +147,7 @@ const ProjectContents = () => {
           </div>
         </div>
 
-        <div className="contents__wrapper">
+        <div className="contents__wrapper marLeft">
           <div>
             <img
               className="content-project_one"
@@ -191,7 +191,7 @@ const ProjectContents = () => {
           </div>
         </div>
 
-        <div className="contents__wrapper">
+        <div className="contents__wrapper marLeft">
           <div>
             <img
               className="content-project_one"
@@ -235,7 +235,7 @@ const ProjectContents = () => {
           </div>
         </div>
 
-        <div className="contents__wrapper">
+        <div className="contents__wrapper marLeft">
           <div>
             <img
               className="content-project_one"
