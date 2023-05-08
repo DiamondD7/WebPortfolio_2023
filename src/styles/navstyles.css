@@ -48,10 +48,7 @@
 /* SENT SUCCESS-FAIL */
 
 .success-fail__wrapper{
-    position: absolute;
-    top:50px;
-    right: 650px;
-    
+     margin: 0 auto;
 }
 
 .success-contact{
