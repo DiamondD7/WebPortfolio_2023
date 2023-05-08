@@ -941,7 +941,7 @@
 
 }
 
-@media(min-height:670px){
+@media(max-height:670px){
     .about-header__text{
         font-size: 24px;
         width: 330px;
