@@ -275,8 +275,6 @@
 }
 
 
-
-
 @media(max-width:991px){
 
     .App{
@@ -941,6 +939,202 @@
 
 }
 
+
+/* MAX HEIGHT FOR PHONES - START */
+
+@media(max-height:900px){
+    .about-header__text{
+        font-size: 24px;
+        width: 330px;
+        margin-left: 14px;
+    }
+
+    .contents-container__wrapper{
+        display: block;
+        width:260px;
+        margin: 50px auto 0 70px;
+        height: 550px;
+    }
+
+    .footer-logo{
+        position: absolute;
+        bottom: -2220px;
+        right: 50px;
+        width: 120px;
+    }
+
+    .description-texts-container{
+        padding: 15px;
+        height: 636px;
+    }
+
+    .content-project-summary_one{
+        font-size: 13px;
+    }
+
+    .content-project__buttons{
+        bottom: -200px;
+    }
+
+    .twoBtns{
+        bottom: -15px;
+    }
+
+    .threeBtns{
+        bottom: -187px;
+    }
+
+    .fourBtns{
+        bottom: -235px;
+    }
+
+    .fiveBtns{
+        bottom: -102px;
+    }
+
+    .sixBtns{
+        bottom: -238px;
+    }
+
+    .sevenBtns{
+        bottom: -128px;
+    }
+
+}
+
+@media(max-height:876px){
+    .about-header__text{
+        font-size: 24px;
+        width: 330px;
+        margin-left: 14px;
+    }
+
+    .contents-container__wrapper{
+        display: block;
+        width:260px;
+        margin: 50px auto 0 70px;
+        height: 550px;
+    }
+
+    .footer-logo{
+        position: absolute;
+        bottom: -2250px;
+        right: 50px;
+        width: 120px;
+    }
+
+    .description-texts-container{
+        padding: 15px;
+        height: 636px;
+    }
+
+    .content-project-summary_one{
+        font-size: 13px;
+    }
+
+    .content-project__buttons{
+        bottom: -200px;
+    }
+
+    .twoBtns{
+        bottom: -15px;
+    }
+
+    .threeBtns{
+        bottom: -187px;
+    }
+
+    .fourBtns{
+        bottom: -235px;
+    }
+
+    .fiveBtns{
+        bottom: -102px;
+    }
+
+    .sixBtns{
+        bottom: -238px;
+    }
+
+    .sevenBtns{
+        bottom: -128px;
+    }
+
+}
+
+@media(max-height:876px){
+    .about-header__text{
+        font-size: 24px;
+        width: 330px;
+        margin-left: 14px;
+    }
+
+    .contents-container__wrapper{
+        display: block;
+        width:260px;
+        margin: 50px auto 0 70px;
+        height: 550px;
+    }
+
+    .footer-logo{
+        position: absolute;
+        bottom: -2280px;
+        right: 50px;
+        width: 120px;
+    }
+
+}
+
+@media(max-height:876px){
+
+    .footer-logo{
+        position: absolute;
+        bottom: -2300px;
+        right: 50px;
+        width: 120px;
+    }
+
+}
+
+@media(max-height:789px){
+
+    .footer-logo{
+        position: absolute;
+        bottom: -2330px;
+        right: 50px;
+        width: 120px;
+    }
+
+}
+
+@media(max-height:762px){
+
+    .footer-logo{
+        position: absolute;
+        bottom: -2360px;
+        right: 50px;
+        width: 120px;
+    }
+
+}
+
+@media(max-height:727px){
+
+    .footer-logo{
+        bottom: -2390px;
+    }
+
+}
+
+/* SUMSUNG S22 ULTRA */
+@media(max-height:700px){
+    .footer-logo{
+        bottom: -2420px;
+    }
+
+}
+
+/* SAMSUNG S20 FE */
 @media(max-height:670px){
     .about-header__text{
         font-size: 24px;
@@ -999,3 +1193,46 @@
     }
 
 }
+
+@media(max-height:637px){
+
+    .footer-logo{
+        bottom: -2480px;
+    }
+
+}
+
+@media(max-height:607px){
+
+    .footer-logo{
+        bottom: -2510px;
+    }
+
+}
+
+@media(max-height:576px){
+
+    .footer-logo{
+        bottom: -2540px;
+    }
+
+}
+
+@media(max-height:550px){
+
+    .footer-logo{
+        bottom: -2570px;
+    }
+
+}
+
+@media(max-height:517px){
+
+    .footer-logo{
+        bottom: -2610px;
+    }
+
+}
+
+
+/* MAX HEIGHT FOR PHONES - END */
