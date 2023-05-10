@@ -940,6 +940,7 @@
 }
 
 
+
 /* MAX HEIGHT FOR PHONES - START */
 
 @media(max-height:900px){
@@ -1105,6 +1106,11 @@
         width: 120px;
     }
 
+    .description-texts-container{
+        padding: 15px;
+        height: 656px;
+    }
+
 }
 
 @media(max-height:762px){
@@ -1116,12 +1122,22 @@
         width: 120px;
     }
 
+    .description-texts-container{
+        padding: 15px;
+        height: 656px;
+    }
+
 }
 
 @media(max-height:727px){
 
     .footer-logo{
         bottom: -2390px;
+    }
+
+    .description-texts-container{
+        padding: 15px;
+        height: 656px;
     }
 
 }
@@ -1131,6 +1147,12 @@
     .footer-logo{
         bottom: -2420px;
     }
+
+    .description-texts-container{
+        padding: 15px;
+        height: 656px;
+    }
+
 
 }
 
