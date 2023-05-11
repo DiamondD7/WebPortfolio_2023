@@ -43,7 +43,7 @@ const Hobbies = ({ hobbiesClicked }) => {
             Music has been a beloved hobby of mine, providing entertainment and
             relaxation. Listening to various genres and artists has expanded my
             musical knowledge and appreciation. I make time for music daily, it
-            brings positivity on my well-being.
+            brings positivity to my well-being.
           </p>
           <FiHeadphones size={"30px"} color="#5e17eb" className="floatfloat" />
         </div>

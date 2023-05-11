@@ -24,8 +24,8 @@ const ProjectContents = () => {
           <div className="content-project-sumamry__wrapper">
             <p className="content-project-summary_one">
               I have cloned the Netflix application that has the ability to play
-              videos with dynamic hero that always change when the page is
-              refreshed and recieves data from the api provided by TMBD. This
+              videos with a dynamic hero that always changes when the page is
+              refreshed and recieves data from the API provided by TMBD. This
               application is built using ReactJS.
             </p>
             <div className="content-project__buttons oneBtns">
@@ -64,8 +64,8 @@ const ProjectContents = () => {
               using the M-E-R-N Stack. Additionally, this project is made just
               for myself and my learning, that is why it is only partially
               completed. The 'Men' and 'Women' sections are the only ones
-              working and populated by the API. FYI: Wait for the data to load
-              around 2 mins.
+              working and populated by the API. <br /> FYI: Wait approximately 2
+              mins for the data to load.
             </p>
             <div className="content-project__buttons twoBtns">
               <a
@@ -202,7 +202,7 @@ const ProjectContents = () => {
           <div className="content-project-sumamry__wrapper">
             <p className="content-project-summary_one">
               This application is a personal finance tracker app, where the user
-              have the ability to manually input their transaction whenever they
+              has the ability to manually input their transaction whenever they
               want. Or they could also use a .CSV file exported from their bank
               statement and the app will convert it to json format where it is
               readable for the API. The application can provide graph insight
