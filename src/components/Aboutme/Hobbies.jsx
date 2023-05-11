@@ -49,7 +49,7 @@ const Hobbies = ({ hobbiesClicked }) => {
         </div>
 
         <div className="tx">
-          <h2 className="description-texts__header">Photgraphy</h2>
+          <h2 className="description-texts__header">Photography</h2>
           <p className="description-texts__subheader">
             As a second photographer, I enjoy capturing special moments and
             enhancing my photography skills. Being a part of the creative
