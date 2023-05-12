@@ -26,14 +26,15 @@
 
 
 /* CONTENTS PROJECT */
+
 .contents-container__wrapper{
     display: flex;
     height: 500px;
-    width: 900px;
+    width: 100%;
     padding: 10px;
     margin: 50px auto 0 auto;
 
-    overflow-x: auto;
+    overflow-x: hidden;
 }
 
 .contents__wrapper{
@@ -44,6 +45,7 @@
     background-color: #5e17eb;
     margin: 50px auto 0 10px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    
 }
 
 .marLeft{
