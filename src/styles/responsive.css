@@ -4,6 +4,7 @@
         margin-right: 30px;
     }
     /* hamburger menu ---- */
+    
 }
 
 @media(max-width:1800px){
@@ -219,6 +220,27 @@
 
 }
 
+@media(min-width:1000px) and (min-height: 902px){
+    @keyframes slowToTheRight{
+        0%{
+            transform: translateX(-10%);
+        }
+        100%{
+            transform: translateX(-717%);
+        }
+    }
+    
+    .contents-container__wrapper .contents__wrapper{
+        animation: slowToTheRight 30s linear infinite;
+        
+        
+    }
+    
+    .contents-container__wrapper:hover .contents__wrapper{
+        animation-play-state: paused;
+        
+    }
+}
 
 @media(max-width:1000px){
 
@@ -940,7 +962,6 @@
 }
 
 
-
 /* MAX HEIGHT FOR PHONES - START */
 
 @media(max-height:900px){
@@ -1258,3 +1279,6 @@
 
 
 /* MAX HEIGHT FOR PHONES - END */
+
+
+@media(max-height:900px) and (max-width:)
