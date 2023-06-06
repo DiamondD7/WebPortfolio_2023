@@ -59,7 +59,7 @@ const Nav = forwardRef((props, ref) => {
   return (
     <div ref={myRef}>
       <div className="nav-container__wrapper">
-        <div>
+        <div className="contactme__wrapper">
           <h1 className="contanctme__text">Contact me</h1>
           <form ref={form} onSubmit={sendEmail} className="form-container">
             <label htmlFor="name">Name</label>
