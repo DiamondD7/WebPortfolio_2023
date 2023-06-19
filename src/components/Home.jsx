@@ -1,13 +1,12 @@
 import React, { useState, useRef, useEffect } from "react";
 import Hero from "./Hero";
 import { FiMenu, FiX, FiPhone } from "react-icons/fi";
-
 import Nav from "./Nav/Nav";
-
 import SocialMediaIcons from "./SocialMediaIcons";
 import About from "./Aboutme/About";
 import Projects from "./Projects/Projects";
 import FooterLogo from "../assets/images/footerlogo.png";
+import CVPDF from "../assets/files/Aaron Sierra CV 2023.pdf";
 
 import "../styles/homestyles.css";
 import "../styles/footerstyles.css";
@@ -124,6 +123,13 @@ const Home = () => {
               </li>
               <li>
                 <button onClick={() => scrollToComponent(2)}>Projects</button>
+              </li>
+
+              <li>&nbsp;</li>
+              <li>
+                <a href={CVPDF} target="_blank">
+                  Resume
+                </a>
               </li>
             </ul>
 
