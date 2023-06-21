@@ -10,6 +10,7 @@
 
   height: 600px;
   padding: 50px 100px;
+  box-shadow: rgba(0, 0, 0, 0.75) 0px 1px 15px;
 }
 
 .contanctme__text {
@@ -38,6 +39,7 @@
   max-width: 350px;
   min-width: 350px;
 
+  color: #f3f3f3;
   background-color: #202020;
   border: 1px solid rgba(244, 244, 244, 0.4);
 }
@@ -57,6 +59,18 @@
 
   cursor: pointer;
   margin-top: 20px;
+}
+
+.contactme-warning__text {
+  color: rgba(244, 244, 244, 0.4);
+
+  position: absolute;
+  bottom: 90px;
+  left: 100px;
+  width: 60%;
+
+  letter-spacing: 1px;
+  line-height: 1.5;
 }
 
 /* SENT SUCCESS-FAIL */

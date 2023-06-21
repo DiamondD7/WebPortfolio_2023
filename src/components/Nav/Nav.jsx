@@ -106,6 +106,12 @@ const Nav = forwardRef((props, ref) => {
           )}
         </div>
       </div>
+      <p className="contactme-warning__text">
+        *Kindly note that your message will be directly forwarded to my
+        professional email address, and I will be reviewing it exclusively on
+        weekdays, excluding weekends. In the event that an immediate response is
+        not provided, I kindly request a 2-3 day allowance for a reply.
+      </p>
     </div>
   );
 });
