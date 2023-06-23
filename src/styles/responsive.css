@@ -910,6 +910,10 @@
 /* MAX HEIGHT FOR PHONES - START */
 
 @media (max-height: 900px) {
+  .contactme-warning__text {
+    display: none;
+  }
+
   .about-header__text {
     font-size: 24px;
     width: 330px;
