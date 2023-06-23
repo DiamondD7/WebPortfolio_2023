@@ -5,13 +5,15 @@ import React, {
   forwardRef,
   useImperativeHandle,
 } from "react";
-import Weblogo from "../assets/images/AJS-logo.png";
+import WeblogoLight from "../assets/images/AJS-logo.png";
+import WeblogoDark from "../assets/images/AJS-logo_dark.png";
 import Splatter from "../assets/images/splatter.png";
 import HeroCartoon from "../assets/images/Hero-cartoon.png";
+import HeroCartoonDark from "../assets/images/Hero-cartoon_dark.png";
 import Books from "../assets/images/books.png";
 
 import "../styles/herostyles.css";
-const Hero = forwardRef((props, ref) => {
+const Hero = forwardRef(({ changeTheme }, ref) => {
   const [startAnim, setStartAnim] = useState(false);
 
   const myRef = useRef(null);
@@ -33,14 +35,18 @@ const Hero = forwardRef((props, ref) => {
       <div className="hero-container__wrapper">
         <div className="hero-header__wrapper">
           <div className="hero-image__wrapper">
-            <img className="AJ-logo" src={Weblogo} alt="AJS" />
+            <img
+              className="AJ-logo"
+              src={changeTheme === false ? WeblogoLight : WeblogoDark}
+              alt="AJS"
+            />
           </div>
           <div className="hero-cartoon-image__wrapper">
             <img
               className={`hero-cartoon__image ${
                 startAnim === true ? "start-animation" : ""
               }`}
-              src={HeroCartoon}
+              src={changeTheme === false ? HeroCartoon : HeroCartoonDark}
             />
           </div>
 

@@ -64,7 +64,7 @@ const Nav = forwardRef((props, ref) => {
           <form ref={form} onSubmit={sendEmail} className="form-container">
             <label htmlFor="name">Name</label>
             <br />
-            <input class id="name" name="from_name" type="text" />
+            <input id="name" name="from_name" type="text" />
             <br />
             <label htmlFor="email">Email</label>
             <br />
