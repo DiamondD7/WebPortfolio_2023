@@ -37,11 +37,14 @@ const SocialMediaIcons = ({ lightTheme, changeTheme }) => {
           </a>
         </div>
         <div className="brightness__wrapper">
-          <button onClick={lightTheme}>
+          <button
+            className={changeTheme === false ? "btn-light" : "btn-dark"}
+            onClick={lightTheme}
+          >
             {changeTheme === false ? (
-              <FiSunset size={"25px"} color="#202020" />
+              <FiSunset size={"25px"} />
             ) : (
-              <FiSunrise size={"25px"} color="#f3f3f3" />
+              <FiSunrise size={"25px"} />
             )}
           </button>
         </div>
