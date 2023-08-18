@@ -1,17 +1,16 @@
 import React, { useState, useRef, useEffect } from "react";
 import Hero from "./Hero";
 import { FiMenu, FiX, FiPhone } from "react-icons/fi";
-
 import Nav from "./Nav/Nav";
-
 import SocialMediaIcons from "./SocialMediaIcons";
 import About from "./Aboutme/About";
 import Projects from "./Projects/Projects";
 import FooterLogo from "../assets/images/footerlogo.png";
+import CVPDF from "../assets/files/Aaron Sierra CV 2023.pdf";
 
 import "../styles/homestyles.css";
 import "../styles/footerstyles.css";
-const Home = () => {
+const Home = ({ lightTheme, changeTheme }) => {
   const [menuClicked, setMenuClicked] = useState(null);
   const myRef = [useRef(null), useRef(null), useRef(null), useRef(null)];
 
@@ -53,20 +52,24 @@ const Home = () => {
           {menuClicked ? (
             <FiX size={"35px"} color={"#5e17eb"} />
           ) : (
-            <FiPhone className="phone-icon" size={"25px"} color={"#202020"} />
+            <FiPhone
+              className="phone-icon"
+              size={"25px"}
+              color={changeTheme === false ? "#202020" : "#f3f3f3"}
+            />
           )}
         </button>
       </div>
       <div className="hero-container">
-        <Hero ref={myRef[0]} />
-        <SocialMediaIcons />
+        <Hero ref={myRef[0]} changeTheme={changeTheme} />
+        <SocialMediaIcons lightTheme={lightTheme} changeTheme={changeTheme} />
       </div>
       <div className="aboutme-container">
-        <About ref={myRef[1]} />
+        <About ref={myRef[1]} changeTheme={changeTheme} />
       </div>
 
       <div>
-        <Projects ref={myRef[2]} />
+        <Projects ref={myRef[2]} changeTheme={changeTheme} />
       </div>
 
       <div>
@@ -124,6 +127,13 @@ const Home = () => {
               </li>
               <li>
                 <button onClick={() => scrollToComponent(2)}>Projects</button>
+              </li>
+
+              <li>&nbsp;</li>
+              <li>
+                <a href={CVPDF} target="_blank">
+                  Resume
+                </a>
               </li>
             </ul>
 

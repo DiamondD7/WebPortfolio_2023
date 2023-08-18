@@ -1,81 +1,76 @@
-.hero-container{
-    padding-top: 50px;
+.hero-container {
+  padding-top: 50px;
 }
 
-.aboutme-container{
-    padding-top: 70px;
+.aboutme-container {
+  padding-top: 70px;
 }
 
-.hamburgermenu__wrapper{
-    position: absolute;
-    top:15px;
-    right: 20px;
-    z-index: 3;
+.hamburgermenu__wrapper {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  z-index: 3;
 }
 
-.btn-icon{
-    border: none;
-    background-color: transparent;
-    cursor: pointer;
+.btn-icon {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
 }
 
-
-.phone-icon{
-    transform: rotate(-110deg);
+.phone-icon {
+  transform: rotate(-110deg);
 }
 
+.overlayNone {
+  position: absolute;
+  top: -100%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #202020;
+  z-index: 2;
+}
 
-.overlayNone{
-    position: absolute;
+.overlayClose {
+  position: absolute;
+  top: -100%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #202020;
+  z-index: 2;
+  animation: overlayCloseAnimation 0.5s ease-out;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #202020;
+  z-index: 2;
+  animation: overlayAnimation 0.5s ease-in;
+}
+
+@keyframes overlayAnimation {
+  0% {
     top: -100%;
-    left: 0;
-    width: 100vw;
-    height: 100%;
-    background-color:#202020;
-    z-index: 2;
-}
-
-.overlayClose{
-    position: absolute;
-    top: -100%;
-    left: 0;
-    width: 100vw;
-    height: 100%;
-    background-color:#202020;
-    z-index: 2;
-    animation: overlayCloseAnimation .5s ease-out;
-}
-
-
-.overlay{ 
-    position: absolute;
+  }
+  100% {
     top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: #202020;
-    z-index: 2;
-    animation: overlayAnimation .5s ease-in;
+  }
 }
 
-@keyframes overlayAnimation{
-    0%{
-        top:-100%
-    }
-    100%{
-        top:0;
-    }
-
+@keyframes overlayCloseAnimation {
+  0% {
+    display: block;
+    top: 0;
+  }
+  100% {
+    display: none;
+    top: -100%;
+  }
 }
-
-@keyframes overlayCloseAnimation{
-    0%{
-        display: block;
-        top:0;
-    }
-    100%{
-        display: none;
-        top:-100%
-    }
-}
-

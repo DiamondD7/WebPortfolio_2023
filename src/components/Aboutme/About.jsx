@@ -7,7 +7,7 @@ import React, {
 import Hobbies from "./Hobbies";
 
 import "../../styles/aboutstyles.css";
-const Description = () => {
+const Description = ({ changeTheme }) => {
   const [skillsClicked, setSkillsClicked] = useState(true);
   const [hobbiesClicked, setHobbiesClicked] = useState(false);
 
@@ -51,7 +51,14 @@ const Description = () => {
             </li>
           </ul>
         </div>
-        <div className="description-container__wrapper">
+        <div
+          className="description-container__wrapper"
+          style={
+            changeTheme === false
+              ? { backgroundColor: "#f3f3f3" }
+              : { backgroundColor: "#202020", color: "#f3f3f3" }
+          }
+        >
           {skillsClicked && (
             <div
               className="description-texts__wrapper"
@@ -60,8 +67,24 @@ const Description = () => {
               }
             >
               <div className="description-texts-container">
-                <h2 className="description-texts__header">Frontend</h2>
-                <p className="description-texts__subheader">
+                <h2
+                  className="description-texts__header"
+                  style={
+                    changeTheme === false
+                      ? { color: "#202020" }
+                      : { color: "#f3f3f3" }
+                  }
+                >
+                  Frontend
+                </h2>
+                <p
+                  className="description-texts__subheader"
+                  style={
+                    changeTheme === false
+                      ? { color: "#202020" }
+                      : { color: "#f3f3f3" }
+                  }
+                >
                   The significance of the client side of an application lies in
                   its ability to engage users with the website, and as such, I
                   place great importance on its development.
@@ -81,8 +104,24 @@ const Description = () => {
                 </p>
               </div>
               <div className="description-texts-container">
-                <h2 className="description-texts__header">Backend</h2>
-                <p className="description-texts__subheader">
+                <h2
+                  className="description-texts__header"
+                  style={
+                    changeTheme === false
+                      ? { color: "#202020" }
+                      : { color: "#f3f3f3" }
+                  }
+                >
+                  Backend
+                </h2>
+                <p
+                  className="description-texts__subheader"
+                  style={
+                    changeTheme === false
+                      ? { color: "#202020" }
+                      : { color: "#f3f3f3" }
+                  }
+                >
                   The client-side of an application is crucial in captivating
                   users, and similarly, the backend-side is vital in providing
                   an application with its purpose and bringing it to fruition.
@@ -97,10 +136,24 @@ const Description = () => {
                 <p>Postman, SwaggerUI, Axios</p>
               </div>
               <div className="description-texts-container">
-                <h2 className="description-texts__header">
+                <h2
+                  className="description-texts__header"
+                  style={
+                    changeTheme === false
+                      ? { color: "#202020" }
+                      : { color: "#f3f3f3" }
+                  }
+                >
                   Currently Learning
                 </h2>
-                <p className="description-texts__subheader">
+                <p
+                  className="description-texts__subheader"
+                  style={
+                    changeTheme === false
+                      ? { color: "#202020" }
+                      : { color: "#f3f3f3" }
+                  }
+                >
                   technology and software development, is a personal passion of
                   mine. Continual learning and growth within this industry are
                   paramount to my success.
@@ -115,14 +168,19 @@ const Description = () => {
             </div>
           )}
 
-          {hobbiesClicked && <Hobbies hobbiesClicked={hobbiesClicked} />}
+          {hobbiesClicked && (
+            <Hobbies
+              hobbiesClicked={hobbiesClicked}
+              changeTheme={changeTheme}
+            />
+          )}
         </div>
       </div>
     </div>
   );
 };
 
-const About = forwardRef((props, ref) => {
+const About = forwardRef(({ changeTheme }, ref) => {
   const myRef = useRef(null);
 
   useImperativeHandle(ref, () => ({
@@ -144,7 +202,7 @@ const About = forwardRef((props, ref) => {
           skills to be one of the best dev in Auckland NZ.
         </p>
 
-        <Description />
+        <Description changeTheme={changeTheme} />
       </div>
     </div>
   );

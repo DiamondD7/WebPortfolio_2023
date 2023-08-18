@@ -59,12 +59,12 @@ const Nav = forwardRef((props, ref) => {
   return (
     <div ref={myRef}>
       <div className="nav-container__wrapper">
-        <div>
+        <div className="contactme__wrapper">
           <h1 className="contanctme__text">Contact me</h1>
           <form ref={form} onSubmit={sendEmail} className="form-container">
             <label htmlFor="name">Name</label>
             <br />
-            <input class id="name" name="from_name" type="text" />
+            <input id="name" name="from_name" type="text" />
             <br />
             <label htmlFor="email">Email</label>
             <br />
@@ -106,6 +106,12 @@ const Nav = forwardRef((props, ref) => {
           )}
         </div>
       </div>
+      <p className="contactme-warning__text">
+        *Kindly note that your message will be directly forwarded to my
+        professional email address, and I will be reviewing it exclusively on
+        weekdays, excluding weekends. In the event that an immediate response is
+        not provided, I kindly request a 2-3 day allowance for a reply.
+      </p>
     </div>
   );
 });

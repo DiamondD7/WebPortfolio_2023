@@ -1,70 +1,102 @@
-.nav-container__wrapper{
-    display: flex;
-    justify-content: center;
-    padding: 20px;
-    height: 100vh;
+.nav-container__wrapper {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  height: 100vh;
 }
 
-.contanctme__text{
-    color: #f3f3f3;
-    font-size: 40px;
+.contactme__wrapper {
+  background-color: rgba(0, 0, 0, 0.1);
+
+  height: 600px;
+  padding: 50px 100px;
+  box-shadow: rgba(0, 0, 0, 0.75) 0px 1px 15px;
 }
 
-.form-container{
-    color: #f3f3f3;
+.contanctme__text {
+  color: #f3f3f3;
+  font-size: 40px;
 }
 
-.form-container label{
-    font-size: 24px;
+.form-container {
+  color: #f3f3f3;
 }
 
-.form-container input{
-    width: 350px;
+.form-container label {
+  font-size: 24px;
 }
 
-.message-input{
-    height: 200px;
-    width: 350px;
+.form-container input {
+  width: 350px;
+  background-color: #202020;
+  border: 1px solid rgba(244, 244, 244, 0.4);
+  color: #f3f3f3;
 }
 
-.btn-container__wrapper{
-    display: flex;
-    justify-content: center;
+.message-input {
+  max-height: 200px;
+  min-height: 200px;
+  max-width: 350px;
+  min-width: 350px;
+
+  color: #f3f3f3;
+  background-color: #202020;
+  border: 1px solid rgba(244, 244, 244, 0.4);
 }
 
+.btn-container__wrapper {
+  display: flex;
+  justify-content: center;
+}
 
-.btn-submit{
-    padding: 0 40px;
-    font-size: 15px;
-    border-radius: 10px;
-    background-color: #5e17eb;
-    color: #f3f3f3;
-    border: none;
+.btn-submit {
+  padding: 0 40px;
+  font-size: 15px;
+  border-radius: 10px;
+  background-color: #5e17eb;
+  color: #f3f3f3;
+  border: none;
 
-    cursor: pointer;
-    margin-top: 20px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.contactme-warning__text {
+  color: rgba(244, 244, 244, 0.4);
+
+  position: absolute;
+  bottom: 90px;
+  left: 100px;
+  width: 60%;
+
+  letter-spacing: 1px;
+  line-height: 1.5;
 }
 
 /* SENT SUCCESS-FAIL */
 
-.success-fail__wrapper{
-     margin: 0 auto;
+.success-fail__wrapper {
+  margin-top: 100px;
+  text-align: center;
 }
 
-.success-contact{
-    opacity: 1;
-    color: limegreen;
-    transition: opacity 1s ease-in-out;
+.success-contact {
+  opacity: 1;
+  color: limegreen;
+  transition: opacity 1s ease-in-out;
+
+  font-weight: bold;
+  letter-spacing: 1px;
 }
 
-.fail-contact{
-    color: red;
-    animation: successFailEffect 1s ease-in;
+.fail-contact {
+  color: red;
+  animation: successFailEffect 1s ease-in;
 }
 
-.fadeout{
-    opacity: 0;
-    color: limegreen;
+.fadeout {
+  opacity: 0;
+  color: limegreen;
 }
 
 /*  */

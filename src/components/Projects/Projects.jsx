@@ -10,7 +10,7 @@ import Blogger from "../../assets/ProjectImages/Bloggerss.png";
 
 import "../../styles/myprojectsstyles.css";
 
-const ProjectContents = () => {
+const ProjectContents = ({ changeTheme }) => {
   return (
     <div>
       <div className="contents-container__wrapper">
@@ -41,6 +41,11 @@ const ProjectContents = () => {
                 className="content-btn__viewcode"
                 href="https://github.com/DiamondD7/Netflix-clone"
                 target="_blank"
+                style={
+                  changeTheme === false
+                    ? { color: "#202020" }
+                    : { color: "#f3f3f3" }
+                }
               >
                 View code
               </a>
@@ -126,6 +131,11 @@ const ProjectContents = () => {
                 className="content-btn__viewcode"
                 href="https://github.com/DiamondD7/shoplift_client"
                 target="_blank"
+                style={
+                  changeTheme === false
+                    ? { color: "#202020" }
+                    : { color: "#f3f3f3" }
+                }
               >
                 View code
               </a>
@@ -161,6 +171,11 @@ const ProjectContents = () => {
                 className="content-btn__viewcode"
                 href="https://github.com/DiamondD7/shoplift_admin"
                 target="_blank"
+                style={
+                  changeTheme === false
+                    ? { color: "#202020" }
+                    : { color: "#f3f3f3" }
+                }
               >
                 View code
               </a>
@@ -187,6 +202,11 @@ const ProjectContents = () => {
                 className="content-btn__viewcode"
                 href="https://github.com/DiamondD7/kaliphotography"
                 target="_blank"
+                style={
+                  changeTheme === false
+                    ? { color: "#202020" }
+                    : { color: "#f3f3f3" }
+                }
               >
                 View code
               </a>
@@ -224,6 +244,11 @@ const ProjectContents = () => {
                 className="content-btn__viewcode"
                 href="https://github.com/DiamondD7/vroom_client"
                 target="_blank"
+                style={
+                  changeTheme === false
+                    ? { color: "#202020" }
+                    : { color: "#f3f3f3" }
+                }
               >
                 View code
               </a>
@@ -231,6 +256,11 @@ const ProjectContents = () => {
                 className="content-btn__viewcode"
                 href="https://github.com/DiamondD7/vroom_server"
                 target="_blank"
+                style={
+                  changeTheme === false
+                    ? { color: "#202020" }
+                    : { color: "#f3f3f3" }
+                }
               >
                 View backend code
               </a>
@@ -268,6 +298,11 @@ const ProjectContents = () => {
                 className="content-btn__viewcode"
                 href="https://github.com/DiamondD7/financeClient"
                 target="_blank"
+                style={
+                  changeTheme === false
+                    ? { color: "#202020" }
+                    : { color: "#f3f3f3" }
+                }
               >
                 View code
               </a>
@@ -275,6 +310,11 @@ const ProjectContents = () => {
                 className="content-btn__viewcode"
                 href="https://github.com/DiamondD7/FinanceServer"
                 target="_blank"
+                style={
+                  changeTheme === false
+                    ? { color: "#202020" }
+                    : { color: "#f3f3f3" }
+                }
               >
                 View backend code
               </a>
@@ -308,6 +348,11 @@ const ProjectContents = () => {
                 className="content-btn__viewcode"
                 href="https://github.com/DiamondD7/todolist_client"
                 target="_blank"
+                style={
+                  changeTheme === false
+                    ? { color: "#202020" }
+                    : { color: "#f3f3f3" }
+                }
               >
                 View code
               </a>
@@ -315,6 +360,11 @@ const ProjectContents = () => {
                 className="content-btn__viewcode"
                 href="https://github.com/DiamondD7/todolist_backend"
                 target="_blank"
+                style={
+                  changeTheme === false
+                    ? { color: "#202020" }
+                    : { color: "#f3f3f3" }
+                }
               >
                 View backend code
               </a>
@@ -349,6 +399,11 @@ const ProjectContents = () => {
                 className="content-btn__viewcode"
                 href="https://github.com/DiamondD7/Netflix-clone"
                 target="_blank"
+                style={
+                  changeTheme === false
+                    ? { color: "#202020" }
+                    : { color: "#f3f3f3" }
+                }
               >
                 View code
               </a>
@@ -388,6 +443,11 @@ const ProjectContents = () => {
                 className="content-btn__viewcode"
                 href="https://github.com/DiamondD7/blogger_client"
                 target="_blank"
+                style={
+                  changeTheme === false
+                    ? { color: "#202020" }
+                    : { color: "#f3f3f3" }
+                }
               >
                 View code
               </a>
@@ -406,7 +466,7 @@ const ProjectContents = () => {
   );
 };
 
-const Projects = forwardRef((props, ref) => {
+const Projects = forwardRef(({ changeTheme }, props, ref) => {
   const myRef = useRef(null);
 
   useImperativeHandle(ref, () => ({
@@ -417,8 +477,20 @@ const Projects = forwardRef((props, ref) => {
   return (
     <div ref={myRef}>
       <div className="project-title__wrapper">
-        <h1 className="project-title__text">My Projects</h1>
-        <p className="project-paragraph__text">
+        <h1
+          className="project-title__text"
+          style={
+            changeTheme === false ? { color: "#202020" } : { color: "#f3f3f3" }
+          }
+        >
+          My Projects
+        </h1>
+        <p
+          className="project-paragraph__text"
+          style={
+            changeTheme === false ? { color: "#202020" } : { color: "#f3f3f3" }
+          }
+        >
           The process of designing and developing projects from start to finish
           not only satisfies my passion for technology but also fuels my desire
           to continuously learn and improve as a developer.
@@ -426,7 +498,7 @@ const Projects = forwardRef((props, ref) => {
       </div>
 
       <div>
-        <ProjectContents />
+        <ProjectContents changeTheme={changeTheme} />
       </div>
     </div>
   );

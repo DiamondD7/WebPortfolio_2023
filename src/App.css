@@ -1,9 +1,12 @@
-.App{
-    height: 100%;
-    width: 100%;
+.App {
+  height: 100%;
+  width: 100%;
 }
 
-#light{
-    background-color: #F3F3F3;
+#light {
+  background-color: #f3f3f3;
 }
 
+#dark {
+  background-color: #202020;
+}
