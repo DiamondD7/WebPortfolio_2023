@@ -171,8 +171,11 @@
 
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     cursor: pointer;
+
+    transition: all .5s ease-in;
 }
 
 .see-all__wrapper button:hover{
+    transition: all .5s ease-out;
     background-color: #00bf63;
 }

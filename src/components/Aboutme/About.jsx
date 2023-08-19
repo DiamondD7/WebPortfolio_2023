@@ -197,9 +197,9 @@ const About = forwardRef(({ changeTheme }, ref) => {
         <p className="about-paragraph__text">
           I am a New Zealand based Fullstack Web Developer, a passionate
           individual that is always willing to learn necessary things to be
-          successful in this industry. I like to work with .Net Core using React
-          or Angular as the frontend. Over the years, I have been crafting my
-          skills to be one of the best dev in Auckland NZ.
+          successful in this industry. I like to work with Asp.Net Core with
+          ReactJS however, I can work with other technologies and I am a fast
+          learner.
         </p>
 
         <Description changeTheme={changeTheme} />
