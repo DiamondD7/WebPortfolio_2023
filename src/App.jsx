@@ -9,21 +9,9 @@ const App = () => {
     setChangeTheme(!changeTheme);
   };
 
-  let component;
-  switch (window.location.pathname) {
-    case "/":
-      component = <Home lightTheme={lightTheme} changeTheme={changeTheme} />;
-      break;
-    case "/AllProjects":
-      component = <AllProjects />;
-      break;
-    default:
-      console.log("Error in the switch case");
-  }
   return (
     <div className="App" id={changeTheme === false ? "light" : "dark"}>
-      {/* <Home lightTheme={lightTheme} changeTheme={changeTheme} /> */}
-      {component}
+      <Home lightTheme={lightTheme} changeTheme={changeTheme} />
     </div>
   );
 };

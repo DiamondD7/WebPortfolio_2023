@@ -10,7 +10,7 @@ import Blogger from "../../assets/ProjectImages/Bloggerss.png";
 
 import "../../styles/myprojectsstyles.css";
 
-const ProjectContents = ({ changeTheme }) => {
+const ProjectContents = ({ changeTheme, setShowAllProjects }) => {
   return (
     <div>
       <div className="contents-container__wrapper">
@@ -466,46 +466,52 @@ const ProjectContents = ({ changeTheme }) => {
   );
 };
 
-const Projects = forwardRef(({ changeTheme }, props, ref) => {
-  const myRef = useRef(null);
+const Projects = forwardRef(
+  ({ changeTheme, setShowAllProjects }, props, ref) => {
+    const myRef = useRef(null);
 
-  useImperativeHandle(ref, () => ({
-    scrollIntoView: () => {
-      myRef.current.scrollIntoView({ behavior: "smooth" });
-    },
-  }));
-  return (
-    <div ref={myRef}>
-      <div className="project-title__wrapper">
-        <h1
-          className="project-title__text"
-          style={
-            changeTheme === false ? { color: "#202020" } : { color: "#f3f3f3" }
-          }
-        >
-          My Projects
-        </h1>
-        <p
-          className="project-paragraph__text"
-          style={
-            changeTheme === false ? { color: "#202020" } : { color: "#f3f3f3" }
-          }
-        >
-          The process of designing and developing projects from start to finish
-          not only satisfies my passion for technology but also fuels my desire
-          to continuously learn and improve as a developer.
-        </p>
-      </div>
+    useImperativeHandle(ref, () => ({
+      scrollIntoView: () => {
+        myRef.current.scrollIntoView({ behavior: "smooth" });
+      },
+    }));
+    return (
+      <div ref={myRef}>
+        <div className="project-title__wrapper">
+          <h1
+            className="project-title__text"
+            style={
+              changeTheme === false
+                ? { color: "#202020" }
+                : { color: "#f3f3f3" }
+            }
+          >
+            My Projects
+          </h1>
+          <p
+            className="project-paragraph__text"
+            style={
+              changeTheme === false
+                ? { color: "#202020" }
+                : { color: "#f3f3f3" }
+            }
+          >
+            The process of designing and developing projects from start to
+            finish not only satisfies my passion for technology but also fuels
+            my desire to continuously learn and improve as a developer.
+          </p>
+        </div>
 
-      <div className="see-all__wrapper">
-        <button>See all</button>
-      </div>
+        <div className="see-all__wrapper">
+          <button onClick={() => setShowAllProjects(true)}>See all</button>
+        </div>
 
-      <div>
-        <ProjectContents changeTheme={changeTheme} />
+        <div>
+          <ProjectContents changeTheme={changeTheme} />
+        </div>
       </div>
-    </div>
-  );
-});
+    );
+  }
+);
 
 export default Projects;

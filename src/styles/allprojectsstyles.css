@@ -1,0 +1,284 @@
+.project__image{
+    width: 300px;
+    height: 350px;
+    object-fit: cover;
+}
+
+.all-projects__wrapper{
+    display: grid;
+    grid-template-columns: repeat(4, 320px);
+    gap: 70px;
+    margin:100px 200px 0 225px;
+}
+
+.content{
+    font-size: 13px;
+    padding: 10px;
+    color: #f3f3f3;
+}
+
+
+.preview-container-nf{
+    background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url(../assets/ProjectImages/nf.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center; 
+
+    width: 300px;
+    height: 350px;
+
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+
+.preview-container-nf > .content{
+    opacity: 0;
+    transition: opacity 1.2s ease;
+}
+
+.preview-container-nf:hover > .content{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../assets/ProjectImages/nf.png);
+    background-size: cover;
+    background-position: center center; 
+
+    
+    width: 300px;
+    height: 350px;
+    opacity: 1;
+    transition: opacity 1s ease;
+}
+
+.netflixBtns{
+    position: relative;
+    bottom: -239px;
+    left: -10px;
+}
+
+
+
+/* ------------------------------------------- */
+.preview-container-blogger{
+    background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url(../assets/ProjectImages/bloggerss.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center; 
+
+    width: 300px;
+    height: 350px;
+
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+
+.preview-container-blogger > .content{
+    opacity: 0;
+    transition: opacity 1.2s ease;
+}
+
+.preview-container-blogger:hover > .content{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../assets/ProjectImages/bloggerss.png);
+    background-size: cover;
+    background-position: center center; 
+
+    
+    width: 300px;
+    height: 350px;
+    opacity: 1;
+    transition: opacity 1s ease;
+}
+.bloggerBtns{
+    position: relative;
+    bottom: -171px;
+    left: -10px;
+}
+
+/* ------------------------------------------- */
+
+
+
+/* ------------------------------------------- */
+.preview-container-shoplift{
+    background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url(../assets/ProjectImages/shopNZ.PNG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center; 
+
+    width: 300px;
+    height: 350px;
+
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+
+.preview-container-shoplift > .content{
+    opacity: 0;
+    transition: opacity 1.2s ease;
+}
+
+.preview-container-shoplift:hover > .content{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../assets/ProjectImages/shopNZ.PNG);
+    background-size: cover;
+    background-position: center center; 
+
+    
+    width: 300px;
+    height: 350px;
+    opacity: 1;
+    transition: opacity 1s ease;
+}
+.shopliftBtns{
+    position: relative;
+    bottom: -120px;
+    left: -10px;
+}
+
+/* ------------------------------------------- */
+
+
+/* ------------------------------------------- */
+.preview-container-shopliftAdmin{
+    background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url(../assets/ProjectImages/shopAdmin.PNG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center; 
+
+    width: 300px;
+    height: 350px;
+
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+
+.preview-container-shopliftAdmin > .content{
+    opacity: 0;
+    transition: opacity 1.2s ease;
+}
+
+.preview-container-shopliftAdmin:hover > .content{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../assets/ProjectImages/shopAdmin.PNG);
+    background-size: cover;
+    background-position: center center; 
+
+    
+    width: 300px;
+    height: 350px;
+    opacity: 1;
+    transition: opacity 1s ease;
+}
+.shopliftAdminBtns{
+    position: relative;
+    bottom: -222px;
+    left: -10px;
+}
+
+/* ------------------------------------------- */
+
+
+/* ------------------------------------------- */
+.preview-container-kaliphotography{
+    background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url(../assets/ProjectImages/kaliphotography.PNG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center; 
+
+    width: 300px;
+    height: 350px;
+
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+
+.preview-container-kaliphotography > .content{
+    opacity: 0;
+    transition: opacity 1.2s ease;
+}
+
+.preview-container-kaliphotography:hover > .content{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../assets/ProjectImages/kaliphotography.PNG);
+    background-size: cover;
+    background-position: center center; 
+
+    
+    width: 300px;
+    height: 350px;
+    opacity: 1;
+    transition: opacity 1s ease;
+}
+.kaliphotographyBtns{
+    position: relative;
+    bottom: -257px;
+    left: -10px;
+}
+
+/* ------------------------------------------- */
+
+
+/* ------------------------------------------- */
+.preview-container-financeTracker{
+    background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url(../assets/ProjectImages/financetrackerss.PNG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center; 
+
+    width: 300px;
+    height: 350px;
+
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+
+.preview-container-financeTracker > .content{
+    opacity: 0;
+    transition: opacity 1.2s ease;
+}
+
+.preview-container-financeTracker:hover > .content{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../assets/ProjectImages/financetrackerss.PNG);
+    background-size: cover;
+    background-position: center center; 
+
+    
+    width: 300px;
+    height: 350px;
+    opacity: 1;
+    transition: opacity 1s ease;
+}
+.financeTrackerBtns{
+    position: relative;
+    bottom: -188px;
+    left: -10px;
+}
+
+/* ------------------------------------------- */
+
+
+/* ------------------------------------------- */
+.preview-container-Todo{
+    background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url(../assets/ProjectImages/todoscreenshot.PNG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center; 
+
+    width: 300px;
+    height: 350px;
+
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+
+.preview-container-Todo > .content{
+    opacity: 0;
+    transition: opacity 1.2s ease;
+}
+
+.preview-container-Todo:hover > .content{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../assets/ProjectImages/todoscreenshot.PNG);
+    background-size: cover;
+    background-position: center center; 
+
+    
+    width: 300px;
+    height: 350px;
+    opacity: 1;
+    transition: opacity 1s ease;
+}
+.TodoBtns{
+    position: relative;
+    bottom: -256px;
+    left: -10px;
+}
+
+/* ------------------------------------------- */
