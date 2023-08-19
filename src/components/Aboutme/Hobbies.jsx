@@ -24,7 +24,7 @@ const Hobbies = ({ hobbiesClicked, changeTheme }) => {
                 : { color: "#f3f3f3" }
             }
           >
-            Gaming
+            Coding
           </h2>
           <p
             className="description-texts__subheader"
@@ -34,12 +34,13 @@ const Hobbies = ({ hobbiesClicked, changeTheme }) => {
                 : { color: "#f3f3f3" }
             }
           >
-            I love to spend my spare time playing PC games, especially after a
-            hard day at work or sports. Playing with others has not only
-            improved my gaming skills but also helped me develop my social
-            abilities. It's a great way to unwind and have fun!
+            Writing code and solving complex problems challenges me and allows
+            me to continuously grow my skills. I make time for coding regularly,
+            by making website applications and making my own API, as it serves
+            as both a hobby and a career aspiration that fuels my drive to learn
+            and improve.
           </p>
-          <FiMonitor size={"30px"} color="#5e17eb" className="floatfloat" />
+          <FiTerminal size={"30px"} color="#00bf63" className="floatfloat" />
         </div>
 
         <div className="tx">
@@ -93,7 +94,7 @@ const Hobbies = ({ hobbiesClicked, changeTheme }) => {
             musical knowledge and appreciation. I make time for music daily, it
             brings positivity to my well-being.
           </p>
-          <FiHeadphones size={"30px"} color="#5e17eb" className="floatfloat" />
+          <FiHeadphones size={"30px"} color="#00bf63" className="floatfloat" />
         </div>
 
         <div className="tx">
@@ -149,7 +150,7 @@ const Hobbies = ({ hobbiesClicked, changeTheme }) => {
             development. I make time for designing regularly, as it serves as a
             hobby that complements my career aspirations.
           </p>
-          <FiEdit size={"30px"} color="#5e17eb" className="floatfloat" />
+          <FiEdit size={"30px"} color="#00bf63" className="floatfloat" />
         </div>
 
         <div className="tx">
@@ -161,7 +162,7 @@ const Hobbies = ({ hobbiesClicked, changeTheme }) => {
                 : { color: "#f3f3f3" }
             }
           >
-            Coding
+            Gaming
           </h2>
           <p
             className="description-texts__subheader"
@@ -171,13 +172,12 @@ const Hobbies = ({ hobbiesClicked, changeTheme }) => {
                 : { color: "#f3f3f3" }
             }
           >
-            Writing code and solving complex problems challenges me and allows
-            me to continuously grow my skills. I make time for coding regularly,
-            by making website applications and making my own API, as it serves
-            as both a hobby and a career aspiration that fuels my drive to learn
-            and improve.
+            I love to spend my spare time playing PC games, especially after a
+            hard day at work or sports. Playing with others has not only
+            improved my gaming skills but also helped me develop my social
+            abilities. It's a great way to unwind and have fun!
           </p>
-          <FiTerminal size={"30px"} color="#5e17eb" className="floatfloat" />
+          <FiMonitor size={"30px"} color="#5e17eb" className="floatfloat" />
         </div>
       </div>
     </div>

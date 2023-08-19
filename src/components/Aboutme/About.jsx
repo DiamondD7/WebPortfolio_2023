@@ -25,7 +25,7 @@ const Description = ({ changeTheme }) => {
                 style={
                   skillsClicked === true
                     ? {
-                        borderBottom: "1px solid #f3f3f3",
+                        borderBottom: "1px solid #00bf63",
                       }
                     : {}
                 }
@@ -42,7 +42,7 @@ const Description = ({ changeTheme }) => {
                 }}
                 style={
                   hobbiesClicked === true
-                    ? { borderBottom: "1px solid #f3f3f3" }
+                    ? { borderBottom: "1px solid #00bf63" }
                     : {}
                 }
               >

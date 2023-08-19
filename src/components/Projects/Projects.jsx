@@ -497,6 +497,10 @@ const Projects = forwardRef(({ changeTheme }, props, ref) => {
         </p>
       </div>
 
+      <div className="see-all__wrapper">
+        <button>See all</button>
+      </div>
+
       <div>
         <ProjectContents changeTheme={changeTheme} />
       </div>

@@ -97,9 +97,10 @@
 }
 
 .description-texts__subheader {
-  font-size: 13px;
+  font-size: 12px;
   margin-top: 10px;
   color: rgba(0, 0, 0, 0.3);
+  padding:0 10px;
 }
 
 .description-texts__title1 {
