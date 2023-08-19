@@ -10,11 +10,14 @@ import Blogger from "../../assets/ProjectImages/Bloggerss.png";
 
 import "../../styles/allprojectsstyles.css";
 
-const AllProjects = ({ changeTheme }) => {
+const AllProjects = ({ changeTheme, setShowAllProjects }) => {
   return (
     <div>
+      <button className="backBtn" onClick={() => setShowAllProjects(false)}>
+        Back
+      </button>
       <div className="all-projects__wrapper">
-        <div className="preview-container-nf">
+        <div className="preview-container-nf gridItems">
           <div className="content">
             <p>
               I have cloned the Netflix application that has the ability to play
@@ -46,7 +49,7 @@ const AllProjects = ({ changeTheme }) => {
           </div>
         </div>
 
-        <div className="preview-container-blogger">
+        <div className="preview-container-blogger gridItems">
           <div className="content">
             <p>
               At the heart of this project is a user-centric approach, offering
@@ -83,7 +86,7 @@ const AllProjects = ({ changeTheme }) => {
           </div>
         </div>
 
-        <div className="preview-container-shoplift">
+        <div className="preview-container-shoplift gridItems">
           <div className="content">
             <p>
               This project is a personal e-commerce project consuming its own
@@ -120,7 +123,7 @@ const AllProjects = ({ changeTheme }) => {
           </div>
         </div>
 
-        <div className="preview-container-shopliftAdmin">
+        <div className="preview-container-shopliftAdmin gridItems">
           <div className="content">
             <p>
               This project is the admin part of the e-commerce website where
@@ -153,7 +156,7 @@ const AllProjects = ({ changeTheme }) => {
           </div>
         </div>
 
-        <div className="preview-container-kaliphotography">
+        <div className="preview-container-kaliphotography gridItems">
           <div className="content">
             <p>
               I am making this photography portfolio website for a client. As of
@@ -177,7 +180,7 @@ const AllProjects = ({ changeTheme }) => {
           </div>
         </div>
 
-        <div className="preview-container-financeTracker">
+        <div className="preview-container-financeTracker gridItems">
           <div className="content">
             <p>
               This application is a personal finance tracker app, where the user
@@ -224,7 +227,7 @@ const AllProjects = ({ changeTheme }) => {
           </div>
         </div>
 
-        <div className="preview-container-Todo">
+        <div className="preview-container-Todo gridItems">
           <div className="content">
             <p>
               This project is focused on the CRUD operations, where users can

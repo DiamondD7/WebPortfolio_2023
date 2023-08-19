@@ -36,7 +36,10 @@ const Home = ({ lightTheme, changeTheme }) => {
   return (
     <div>
       {showAllProjects === true ? (
-        <AllProjects changeTheme={changeTheme} />
+        <AllProjects
+          changeTheme={changeTheme}
+          setShowAllProjects={setShowAllProjects}
+        />
       ) : (
         <div>
           <div

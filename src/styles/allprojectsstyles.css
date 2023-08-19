@@ -4,6 +4,13 @@
     object-fit: cover;
 }
 
+.backBtn{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+}
+
 .all-projects__wrapper{
     display: grid;
     grid-template-columns: repeat(4, 320px);
@@ -17,6 +24,10 @@
     color: #f3f3f3;
 }
 
+.gridItems{
+    width: 300px;
+    height: 350px;
+}
 
 .preview-container-nf{
     background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url(../assets/ProjectImages/nf.png);
