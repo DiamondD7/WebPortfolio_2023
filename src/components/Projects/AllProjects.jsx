@@ -13,7 +13,13 @@ import "../../styles/allprojectsstyles.css";
 const AllProjects = ({ changeTheme, setShowAllProjects }) => {
   return (
     <div>
-      <button className="backBtn" onClick={() => setShowAllProjects(false)}>
+      <button
+        className="backBtn"
+        onClick={() => setShowAllProjects(false)}
+        style={
+          changeTheme === false ? { color: "#202020" } : { color: "#f3f3f3" }
+        }
+      >
         Back
       </button>
       <div className="all-projects__wrapper">

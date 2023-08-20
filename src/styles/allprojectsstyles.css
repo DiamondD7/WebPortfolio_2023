@@ -16,6 +16,7 @@
     grid-template-columns: repeat(4, 320px);
     gap: 70px;
     margin:100px 200px 0 225px;
+    height: 100vh;
 }
 
 .content{
