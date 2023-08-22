@@ -1044,11 +1044,23 @@
 
 @media (max-height: 876px) {
   .footer-logo {
-    position: absolute;
-    bottom: -2300px;
-    right: 50px;
+    bottom: -2370px;
     width: 120px;
   }
+
+  .hero-cartoon-image__wrapper {
+    position: absolute;
+    top:846px;
+    right: 50px;
+  }
+
+  .hero-cartoon-image2__wrapper {
+    position: absolute;
+    top: 902px;
+    left: 20px;
+  }
+
+
 }
 
 @media (max-height: 789px) {
