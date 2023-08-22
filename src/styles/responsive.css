@@ -1066,7 +1066,7 @@
 @media (max-height: 789px) {
   .footer-logo {
     position: absolute;
-    bottom: -2330px;
+    bottom: -2400px;
     right: 50px;
     width: 120px;
   }
@@ -1074,6 +1074,22 @@
   .description-texts-container {
     padding: 15px;
     height: 656px;
+  }
+
+  .hero-cartoon-image__wrapper {
+    position: absolute;
+    top:846px;
+    right: 60px;
+  }
+
+  .hero-cartoon-image2__wrapper {
+    position: absolute;
+    top: 907px;
+    left: 10px;
+  }
+
+  .hero-cartoon__image2 {
+    width: 140px;
   }
 }
 
