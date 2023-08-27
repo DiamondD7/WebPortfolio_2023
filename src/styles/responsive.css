@@ -18,7 +18,7 @@
 
   .hero-cartoon-image__wrapper {
     position: absolute;
-    top: 540px;
+    top: 550px;
     right: 500px;
   }
 
@@ -28,7 +28,7 @@
 
   .hero-cartoon-image2__wrapper {
     position: absolute;
-    top: 739px;
+    top: 748px;
     left: 300px;
   }
 
@@ -56,14 +56,10 @@
   }
 
   .hero-cartoon-image__wrapper {
-    position: absolute;
-    top: 540px;
     right: 300px;
   }
 
   .hero-cartoon-image2__wrapper {
-    position: absolute;
-    top: 739px;
     left: 300px;
   }
 }
@@ -78,14 +74,12 @@
   }
 
   .hero-cartoon-image__wrapper {
-    position: absolute;
-    top: 540px;
+
     right: 200px;
   }
 
   .hero-cartoon-image2__wrapper {
-    position: absolute;
-    top: 739px;
+
     left: 200px;
   }
 }
@@ -106,8 +100,7 @@
   }
 
   .hero-cartoon-image__wrapper {
-    position: absolute;
-    top: 640px;
+    top: 649px;
     right: 300px;
   }
 
@@ -116,8 +109,7 @@
   }
 
   .hero-cartoon-image2__wrapper {
-    position: absolute;
-    top: 800px;
+    top: 810px;
     left: 200px;
   }
 
@@ -129,6 +121,7 @@
     display: grid;
     grid-template-columns: repeat(3, 250px);
   }
+
 }
 
 @media (max-width: 1200px) {
@@ -147,8 +140,7 @@
   }
 
   .hero-cartoon-image__wrapper {
-    position: absolute;
-    top: 688px;
+    top: 698px;
     right: 300px;
   }
 
@@ -158,7 +150,7 @@
 
   .hero-cartoon-image2__wrapper {
     position: absolute;
-    top: 830px;
+    top: 840px;
     left: 200px;
   }
 
@@ -188,8 +180,7 @@
   }
 
   .hero-cartoon-image__wrapper {
-    position: absolute;
-    top: 689px;
+
     right: 200px;
   }
 
@@ -198,8 +189,7 @@
   }
 
   .hero-cartoon-image2__wrapper {
-    position: absolute;
-    top: 830px;
+
     left: 270px;
   }
 
@@ -249,8 +239,7 @@
   }
 
   .hero-cartoon-image__wrapper {
-    position: absolute;
-    top: 689px;
+
     right: 150px;
   }
 
@@ -259,8 +248,7 @@
   }
 
   .hero-cartoon-image2__wrapper {
-    position: absolute;
-    top: 830px;
+
     left: 270px;
   }
 
@@ -284,14 +272,10 @@
   }
 
   .hero-cartoon-image__wrapper {
-    position: absolute;
-    top: 689px;
     right: 100px;
   }
 
   .hero-cartoon-image2__wrapper {
-    position: absolute;
-    top: 830px;
     left: 270px;
   }
 
@@ -423,14 +407,12 @@
   }
 
   .hero-cartoon-image__wrapper {
-    position: absolute;
-    top: 738px;
+    top: 747px;
     right: 150px;
   }
 
   .hero-cartoon-image2__wrapper {
-    position: absolute;
-    top: 830px;
+
     left: 170px;
   }
 
@@ -468,14 +450,10 @@
 
 @media (max-width: 800px) {
   .hero-cartoon-image__wrapper {
-    position: absolute;
-    top: 740px;
     right: 50px;
   }
 
   .hero-cartoon-image2__wrapper {
-    position: absolute;
-    top: 830px;
     left: 170px;
   }
 
@@ -520,14 +498,10 @@
   }
 
   .hero-cartoon-image__wrapper {
-    position: absolute;
-    top: 740px;
     right: 50px;
   }
 
   .hero-cartoon-image2__wrapper {
-    position: absolute;
-    top: 830px;
     left: 100px;
   }
 
@@ -580,15 +554,17 @@
 }
 
 @media (max-width: 630px) {
+  .hero-cartoon__image {
+    width: 190px;
+  }
+
   .hero-cartoon-image__wrapper {
-    position: absolute;
-    top: 740px;
-    right: 20px;
+    top: 807px;
+    right: 80px;
   }
 
   .hero-cartoon-image2__wrapper {
-    position: absolute;
-    top: 830px;
+
     left: 50px;
   }
 
@@ -639,19 +615,23 @@
 
 @media (max-width: 545px) {
   .hero-cartoon__image {
-    width: 200px;
+    width: 170px;
   }
 
   .hero-cartoon-image__wrapper {
     position: absolute;
-    top: 788px;
-    right: 20px;
+    top: 827px;
+    right: 90px;
+  }
+
+  .hero-cartoon__image2 {
+    width: 200px;
   }
 
   .hero-cartoon-image2__wrapper {
     position: absolute;
-    top: 830px;
-    left: 50px;
+    top: 872px;
+    left: 40px;
   }
 
   .contents-container__wrapper {
@@ -722,14 +702,24 @@
     width: 400px;
     margin-bottom: 30px;
   }
+
+  .hero-cartoon__image {
+    width: 170px;
+  }
+
+  .hero-cartoon-image__wrapper {
+    position: absolute;
+    top: 827px;
+    right: 50px;
+  }
   .hero-cartoon__image2 {
     width: 200px;
   }
 
   .hero-cartoon-image2__wrapper {
     position: absolute;
-    top: 861px;
-    left: 50px;
+    top: 872px;
+    left: 40px;
   }
 
   .project-paragraph__text {
@@ -757,12 +747,12 @@
 
 @media (max-width: 442px) {
   .hero-cartoon__image2 {
-    width: 200px;
+    width: 160px;
   }
 
   .hero-cartoon-image2__wrapper {
     position: absolute;
-    top: 861px;
+    top: 897px;
     left: 10px;
   }
 }
@@ -783,8 +773,8 @@
 
   .hero-cartoon-image__wrapper {
     position: absolute;
-    top: 852px;
-    right: 20px;
+    top: 847px;
+    right: 60px;
   }
 
   .hero-cartoon__image2 {
@@ -793,8 +783,8 @@
 
   .hero-cartoon-image2__wrapper {
     position: absolute;
-    top: 890px;
-    left: 50px;
+    top: 901px;
+    left: 20px;
   }
 
   .project-paragraph__text {
@@ -861,6 +851,32 @@
 
 
 /* MAX HEIGHT FOR PHONES - START */
+@media(max-height: 1000px){
+  .nav-container__wrapper {
+    padding:0px;
+  }
+  
+  .contactme__wrapper {
+    height: 580px;
+    width: 359px;
+    padding: 30px 10px;
+  }
+
+  .contanctme__text {
+    font-size: 25px;
+  }
+
+  .form-container input {
+    width: 250px;
+  }
+
+  .message-input {
+    max-height: 200px;
+    min-height: 200px;
+    max-width: 300px;
+    min-width: 300px;
+  }
+}
 
 @media (max-height: 900px) {
   .contactme-warning__text {
@@ -931,6 +947,7 @@
 
 /* LAPTOP SIZES - START */
 @media (max-height: 900px) and (max-width: 1400px) {
+
   .contents-container__wrapper {
     display: flex;
     height: 500px;
@@ -960,6 +977,21 @@
   
 }
 /* LAPTOP SIZES - END */
+
+@media(max-height:900px){
+  .description-container__wrapper {
+    height: 420px;
+  }
+
+  .description-texts-container {
+    height: 420px;
+  }
+
+  .about-header__text {
+    margin: 0 auto;
+    color: #f3f3f3;
+  }
+}
 
 @media (max-height: 876px) {
   .about-header__text {
@@ -1050,25 +1082,60 @@
 
   .hero-cartoon-image__wrapper {
     position: absolute;
-    top:846px;
-    right: 50px;
+    top:828px;
+    right: 70px;
   }
 
   .hero-cartoon-image2__wrapper {
     position: absolute;
-    top: 902px;
+    top: 895px;
     left: 20px;
   }
 
+  .nav-container__wrapper {
+    padding:5px;
+  }
+  
+  .contactme__wrapper {
+    height: 580px;
+    width: 359px;
+    padding: 30px 10px;
+  }
+
+  .contanctme__text {
+    font-size: 25px;
+  }
+
+  .form-container input {
+    width: 250px;
+  }
+
+  .message-input {
+    max-height: 200px;
+    min-height: 200px;
+    max-width: 300px;
+    min-width: 300px;
+  }
 
 }
 
+@media(max-height: 870px){
+  .footer-logo {
+    bottom: -2290px;
+  }
+}
+
+@media(max-height: 858px){
+  .footer-logo {
+    bottom: -2270px;
+  }
+}
+
+
 @media (max-height: 789px) {
   .footer-logo {
-    position: absolute;
     bottom: -2400px;
     right: 50px;
-    width: 120px;
   }
 
   .description-texts-container {
@@ -1094,11 +1161,9 @@
 }
 
 @media (max-height: 762px) {
+
   .footer-logo {
-    position: absolute;
-    bottom: -2360px;
-    right: 50px;
-    width: 120px;
+    bottom: -2430px;
   }
 
   .description-texts-container {
@@ -1109,7 +1174,7 @@
 
 @media (max-height: 727px) {
   .footer-logo {
-    bottom: -2390px;
+    bottom: -2460px;
   }
 
   .description-texts-container {
@@ -1121,7 +1186,7 @@
 /* SUMSUNG S22 ULTRA */
 @media (max-height: 700px) {
   .footer-logo {
-    bottom: -2420px;
+    bottom: -2490px;
   }
 
   .description-texts-container {
@@ -1147,7 +1212,7 @@
 
   .footer-logo {
     position: absolute;
-    bottom: -2450px;
+    bottom: -2520px;
     right: 50px;
     width: 120px;
   }
@@ -1191,31 +1256,79 @@
 
 @media (max-height: 637px) {
   .footer-logo {
-    bottom: -2480px;
+    bottom: -2560px;
   }
 }
 
 @media (max-height: 607px) {
   .footer-logo {
-    bottom: -2510px;
+    bottom: -2580px;
   }
+
+  .image-splatter {
+    top: -50px;
+    left: -60px;
+  }
+  
+  .image-splatter2 {
+    position: absolute;
+    top:140px;
+    left: 130px;
+    animation: splatterEffect2 1s ease-in-out;
+  }
+  
+  .image-splatter3 {
+    top: 500px;
+    right: 40px;
+  }
+
+  .splatter1{
+    width: 200px;
+  }
+
+  .splatter2{
+    width: 200px;
+  }
+
+  .splatter3{
+    width: 300px;
+  }
+
 }
 
 @media (max-height: 576px) {
   .footer-logo {
-    bottom: -2540px;
+    bottom: -2610px;
   }
 }
 
 @media (max-height: 550px) {
   .footer-logo {
-    bottom: -2570px;
+    bottom: -2650px;
   }
 }
 
 @media (max-height: 517px) {
   .footer-logo {
-    bottom: -2610px;
+    bottom: -2670px;
+  }
+}
+
+@media (max-height: 480px) {
+  .footer-logo {
+    bottom: -2700px;
+  }
+}
+
+@media (max-height: 450px) {
+  .footer-logo {
+    bottom: -2730px;
+  }
+}
+
+@media (max-height: 420px) {
+  .footer-logo {
+    bottom: -2780px;
   }
 }
 
