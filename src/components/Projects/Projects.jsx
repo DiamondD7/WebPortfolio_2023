@@ -76,7 +76,7 @@ const ProjectContents = ({ changeTheme, setShowAllProjects }) => {
             <div className="content-project__buttons sevenBtns">
               <a
                 className="content-btn__viewproject"
-                href="https://youtu.be/LB9V9aeFJYc"
+                href="https://www.youtube.com/watch?v=DRyId_rv3fU"
                 target="_blank"
               >
                 View project
@@ -434,7 +434,7 @@ const ProjectContents = ({ changeTheme, setShowAllProjects }) => {
             <div className="content-project__buttons sevenBtns">
               <a
                 className="content-btn__viewproject"
-                href="https://youtu.be/LB9V9aeFJYc"
+                href="https://www.youtube.com/watch?v=DRyId_rv3fU"
                 target="_blank"
               >
                 View project

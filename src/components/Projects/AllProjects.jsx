@@ -69,7 +69,7 @@ const AllProjects = ({ changeTheme, setShowAllProjects }) => {
             <div className="bloggerBtns">
               <a
                 className="content-btn__viewproject"
-                href="https://youtu.be/LB9V9aeFJYc"
+                href="https://www.youtube.com/watch?v=DRyId_rv3fU"
                 target="_blank"
               >
                 View project
