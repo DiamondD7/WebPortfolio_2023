@@ -487,6 +487,7 @@
   
 }
 
+
 @media (max-width: 700px) {
   .about-paragraph__text {
     width: 500px;
@@ -851,10 +852,6 @@
 
 
 /* MAX HEIGHT FOR PHONES - START */
-
-/* LAPTOP SIZES - START */
-
-/* LAPTOP SIZES - END */
 
 @media(max-height:1000px){
   .footer-logo{
