@@ -62,6 +62,10 @@
   .hero-cartoon-image2__wrapper {
     left: 300px;
   }
+
+  .footer-logo{
+    width: 150px;
+  }
 }
 
 @media (max-width: 1400px) {
@@ -906,6 +910,13 @@
   .all-projects__wrapper{
     margin-left: 50px;
   }
+
+}
+
+@media (max-width: 370px){
+  .footer-logo {
+    width: 100px;
+  }
 }
 
 @media(max-width:288px){
@@ -951,7 +962,7 @@
 
 @media(max-height: 858px){
   .footer-logo {
-    bottom: -2355px;
+    bottom: -2280px;
   }
 
   .about-paragraph__text {
@@ -981,14 +992,16 @@
 
 @media (max-height: 727px) {
   .footer-logo {
-    bottom: -2400px;
+    bottom: -2450px;
   }
 }
 
 /* SUMSUNG S22 ULTRA */
+
+
 @media (max-height: 700px) {
   .footer-logo {
-    bottom: -2450px;
+    bottom: -2430px;
   }
 
   .contactme-warning__text {
@@ -1001,7 +1014,7 @@
 
 
   .footer-logo {
-    bottom: -2450px;
+    bottom: -2500px;
     width: 120px;
   }
 
@@ -1009,7 +1022,7 @@
 
 @media (max-height: 637px) {
   .footer-logo {
-    bottom: -2490px;
+    bottom: -2550px;
   }
 
   .contactme__wrapper {
@@ -1019,38 +1032,38 @@
 
 @media (max-height: 607px) {
   .footer-logo {
-    bottom: -2530px;
+    bottom: -2590px;
   }
 
 }
 
 @media (max-height: 576px) {
   .footer-logo {
-    bottom: -2550px;
+    bottom: -2570px;
   }
 }
 
 @media (max-height: 550px) {
   .footer-logo {
-    bottom: -2590px;
+    bottom: -2640px;
   }
 }
 
 @media (max-height: 517px) {
   .footer-logo {
-    bottom: -2610px;
+    bottom: -2690px;
   }
 }
 
 @media (max-height: 480px) {
   .footer-logo {
-    bottom: -2630px;
+    bottom: -2700px;
   }
 }
 
 @media (max-height: 450px) {
   .footer-logo {
-    bottom: -2670px;
+    bottom: -2750px;
   }
 }
 
@@ -1062,7 +1075,7 @@
 
 @media (max-height: 420px) {
   .footer-logo {
-    bottom: -2760px;
+    bottom: -2850px;
   }
 }
 
