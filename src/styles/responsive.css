@@ -275,6 +275,8 @@
     right: 100px;
   }
 
+  
+
   .hero-cartoon-image2__wrapper {
     left: 270px;
   }
@@ -635,6 +637,10 @@
     left: 40px;
   }
 
+  .contactme__wrapper {
+    width: 100%;
+  }
+
   .contents-container__wrapper {
     display: block;
     margin: 50px auto 0 100px;
@@ -743,6 +749,18 @@
     height: 370px;
   }
 
+  .form-container label {
+    font-size: 18px;
+  }
+  
+  .form-container input {
+    width: 283px;
+  }
+
+  .message-input {
+    max-width: 283px;
+    min-width: 283px;
+  }
   
 }
 
@@ -760,12 +778,53 @@
 
 @media (max-width: 412px) {
   .AJ-logo {
-    width: 290px;
+    width: 250px;
     margin-top: 50px;
     margin-right: 10px;
   }
+
+  .image-splatter{
+    left: -300px;
+  }
+
+  .image-splatter2{
+    right: 150px;
+  }
+
+  .image-splatter3 {
+    top: 70px;
+    right: 50px;
+  }
+
+
+  .nav-container__wrapper {
+    padding: 0px;
+  }
+
+  .contactme__wrapper {
+    width:95%;
+    padding: 0px 0px;
+  }
+
+  .form-container label {
+    font-size: 15px;
+  }
+  
+  .form-container input {
+    width: 283px;
+  }
+
+  .message-input {
+    max-width: 283px;
+    min-width: 283px;
+  }
+  
+
+  .about-header__text{
+    font-size: 25px;
+  }
   .about-paragraph__text {
-    width: 300px;
+    width: 250px;
   }
 
   .hero-cartoon__image {
@@ -799,6 +858,7 @@
     margin: 50px auto 0 70px;
     height: 550px;
   }
+  
 
   .content-project_one {
     width: 200px;
@@ -840,6 +900,7 @@
 
   .footer-logo {
     width: 100px;
+    left: 170px;
   }
 
   .all-projects__wrapper{
@@ -882,7 +943,7 @@
 
 @media(max-height: 858px){
   .footer-logo {
-    bottom: -2295px;
+    bottom: -2355px;
   }
 
   .about-paragraph__text {

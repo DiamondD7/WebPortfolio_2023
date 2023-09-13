@@ -130,27 +130,3 @@
 .hero-btns_wrapper {
   margin-top: 60px;
 }
-
-.hero-btn__about {
-  padding: 3px 20px;
-  border-radius: 50px;
-  color: #202020;
-  border: 1px solid #5e17eb;
-  font-size: 20px;
-
-  text-transform: uppercase;
-  margin-right: 30px;
-  cursor: pointer;
-}
-
-.hero-btn__portfolio {
-  padding: 3px 20px;
-  border-radius: 50px;
-  color: #f3f3f3;
-  border: 1px solid #5e17eb;
-  background-color: #5e17eb;
-  font-size: 20px;
-
-  text-transform: uppercase;
-  cursor: pointer;
-}
