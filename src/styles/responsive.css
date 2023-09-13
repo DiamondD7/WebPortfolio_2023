@@ -487,6 +487,7 @@
   
 }
 
+
 @media (max-width: 700px) {
   .about-paragraph__text {
     width: 500px;
@@ -806,42 +807,39 @@
 
   .contents__wrapper {
     width: 200px;
-    height: 370px;
+    height: 470px;
   }
 
   .content-project__buttons {
-    bottom: -155px;
+    bottom: -253px;
   }
 
   .twoBtns {
-    bottom: 103px;
+    bottom: 7px;
   }
 
   .threeBtns {
-    bottom: -115px;
+    bottom: -213px;
   }
 
   .fourBtns {
-    bottom: -195px;
+    bottom: -293px;
   }
 
   .fiveBtns {
-    bottom: -15px;
+    bottom: -113px;
   }
 
   .sixBtns {
-    bottom: -215px;
+    bottom: -293px;
   }
 
   .sevenBtns {
-    bottom: -53px;
+    bottom: -12px;
   }
 
   .footer-logo {
-    position: absolute;
-    bottom: -2145px;
-    right: 10px;
-    width: 150px;
+    width: 100px;
   }
 
   .all-projects__wrapper{
@@ -852,13 +850,9 @@
 
 /* MAX HEIGHT FOR PHONES - START */
 
-/* LAPTOP SIZES - START */
-
-/* LAPTOP SIZES - END */
-
 @media(max-height:1000px){
   .footer-logo{
-    bottom: -2150px;
+    bottom: -2140px;
   }
 }
 
