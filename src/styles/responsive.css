@@ -198,7 +198,7 @@
   }
 }
 
-@media (min-width: 1000px) and (min-height: 902px) {
+@media (min-width: 1000px) {
   @keyframes slowToTheRight {
     0% {
       transform: translateX(-10%);
@@ -851,484 +851,161 @@
 
 
 /* MAX HEIGHT FOR PHONES - START */
-@media(max-height: 1000px){
-  .nav-container__wrapper {
-    padding:0px;
-  }
-  
-  .contactme__wrapper {
-    height: 580px;
-    width: 359px;
-    padding: 30px 10px;
-  }
-
-  .contanctme__text {
-    font-size: 25px;
-  }
-
-  .form-container input {
-    width: 250px;
-  }
-
-  .message-input {
-    max-height: 200px;
-    min-height: 200px;
-    max-width: 300px;
-    min-width: 300px;
-  }
-}
-
-@media (max-height: 900px) {
-  .contactme-warning__text {
-    display: none;
-  }
-
-  .about-header__text {
-    font-size: 24px;
-    width: 330px;
-    margin-left: 14px;
-  }
-
-  .contents-container__wrapper {
-    display: block;
-    width: 260px;
-    margin: 50px auto 0 70px;
-    height: 550px;
-  }
-
-  .footer-logo {
-    position: absolute;
-    bottom: -2220px;
-    right: 50px;
-    width: 120px;
-  }
-
-  .description-texts-container {
-    padding: 15px;
-    height: 636px;
-  }
-
-  .content-project-summary_one {
-    font-size: 13px;
-  }
-
-  .content-project__buttons {
-    bottom: -200px;
-  }
-
-  .twoBtns {
-    bottom: -15px;
-  }
-
-  .threeBtns {
-    bottom: -187px;
-  }
-
-  .fourBtns {
-    bottom: -235px;
-  }
-
-  .fiveBtns {
-    bottom: -102px;
-  }
-
-  .sixBtns {
-    bottom: -238px;
-  }
-
-  .sevenBtns {
-    bottom: -128px;
-  }
-
-  .all-projects__wrapper{
-    grid-template-rows: 350px;
-  } 
-}
 
 /* LAPTOP SIZES - START */
-@media (max-height: 900px) and (max-width: 1400px) {
 
-  .contents-container__wrapper {
-    display: flex;
-    height: 500px;
-    width: 100%;
-    padding: 10px;
-    margin: 50px auto 0 auto;
-
-    overflow-x: hidden;
-  }
-
-  .description-texts-container {
-    width: 300px;
-    height: 450px;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 0px 0.8px;
-  }
-
-  .about-header__text {
-    font-size: 32px;
-    width: 490px;
-    margin: 0 auto;
-  }
-
-  .footer-logo {
-    position: absolute;
-    bottom: -2120px;
-  }
-  
-}
 /* LAPTOP SIZES - END */
 
+@media(max-height:1000px){
+  .footer-logo{
+    bottom: -2150px;
+  }
+}
+
 @media(max-height:900px){
-  .description-container__wrapper {
-    height: 420px;
-  }
-
-  .description-texts-container {
-    height: 420px;
-  }
-
-  .about-header__text {
-    margin: 0 auto;
-    color: #f3f3f3;
-  }
-}
-
-@media (max-height: 876px) {
-  .about-header__text {
-    font-size: 24px;
-    width: 330px;
-    margin-left: 14px;
-  }
-
-  .contents-container__wrapper {
-    display: block;
-    width: 260px;
-    margin: 50px auto 0 70px;
-    height: 550px;
-  }
-
-  .footer-logo {
-    position: absolute;
-    bottom: -2250px;
-    right: 50px;
-    width: 120px;
-  }
-
-  .description-texts-container {
-    padding: 15px;
-    height: 636px;
-  }
-
-  .content-project-summary_one {
-    font-size: 13px;
-  }
-
-  .content-project__buttons {
-    bottom: -200px;
-  }
-
-  .twoBtns {
-    bottom: -15px;
-  }
-
-  .threeBtns {
-    bottom: -187px;
-  }
-
-  .fourBtns {
-    bottom: -235px;
-  }
-
-  .fiveBtns {
-    bottom: -102px;
-  }
-
-  .sixBtns {
-    bottom: -238px;
-  }
-
-  .sevenBtns {
-    bottom: -23px;
-  }
-}
-
-@media (max-height: 876px) {
-  .about-header__text {
-    font-size: 24px;
-    width: 330px;
-    margin-left: 14px;
-  }
-
-  .contents-container__wrapper {
-    display: block;
-    width: 260px;
-    margin: 50px auto 0 70px;
-    height: 550px;
-  }
-
-  .footer-logo {
-    position: absolute;
-    bottom: -2280px;
-    right: 50px;
-    width: 120px;
-  }
-}
-
-@media (max-height: 876px) {
-  .footer-logo {
-    bottom: -2370px;
-    width: 120px;
-  }
-
-  .hero-cartoon-image__wrapper {
-    position: absolute;
-    top:828px;
-    right: 70px;
-  }
-
-  .hero-cartoon-image2__wrapper {
-    position: absolute;
-    top: 895px;
-    left: 20px;
-  }
-
-  .nav-container__wrapper {
-    padding:5px;
+  .footer-logo{
+    bottom: -2230px;
   }
   
-  .contactme__wrapper {
-    height: 580px;
-    width: 359px;
-    padding: 30px 10px;
-  }
+}
 
-  .contanctme__text {
-    font-size: 25px;
-  }
-
-  .form-container input {
-    width: 250px;
-  }
-
-  .message-input {
-    max-height: 200px;
-    min-height: 200px;
-    max-width: 300px;
-    min-width: 300px;
+@media (max-height: 876px) {
+  .footer-logo{
+    bottom: -2290px;
   }
 
 }
 
 @media(max-height: 870px){
   .footer-logo {
-    bottom: -2290px;
+    bottom: -2280px;
+  }
+
+  .contactme-warning__text {
+    bottom: 30px;
   }
 }
 
 @media(max-height: 858px){
   .footer-logo {
-    bottom: -2270px;
+    bottom: -2295px;
+  }
+
+  .about-paragraph__text {
+    margin-bottom: 30px;
   }
 }
 
+@media(max-height:800px){
+  .contactme-warning__text {
+    bottom: 0;
+    font-size: 13px;
+  }
+}
 
 @media (max-height: 789px) {
   .footer-logo {
-    bottom: -2400px;
-    right: 50px;
-  }
-
-  .description-texts-container {
-    padding: 15px;
-    height: 656px;
-  }
-
-  .hero-cartoon-image__wrapper {
-    position: absolute;
-    top:846px;
-    right: 60px;
-  }
-
-  .hero-cartoon-image2__wrapper {
-    position: absolute;
-    top: 907px;
-    left: 10px;
-  }
-
-  .hero-cartoon__image2 {
-    width: 140px;
+    bottom: -2360px;
   }
 }
 
 @media (max-height: 762px) {
 
   .footer-logo {
-    bottom: -2430px;
-  }
-
-  .description-texts-container {
-    padding: 15px;
-    height: 656px;
+    bottom: -2390px;
   }
 }
 
 @media (max-height: 727px) {
   .footer-logo {
-    bottom: -2460px;
-  }
-
-  .description-texts-container {
-    padding: 15px;
-    height: 656px;
+    bottom: -2400px;
   }
 }
 
 /* SUMSUNG S22 ULTRA */
 @media (max-height: 700px) {
   .footer-logo {
-    bottom: -2490px;
+    bottom: -2450px;
   }
 
-  .description-texts-container {
-    padding: 15px;
-    height: 656px;
+  .contactme-warning__text {
+    display: none;
   }
 }
 
 /* SAMSUNG S20 FE */
 @media (max-height: 670px) {
-  .about-header__text {
-    font-size: 24px;
-    width: 330px;
-    margin-left: 14px;
-  }
 
-  .contents-container__wrapper {
-    display: block;
-    width: 260px;
-    margin: 50px auto 0 70px;
-    height: 550px;
-  }
 
   .footer-logo {
-    position: absolute;
-    bottom: -2520px;
-    right: 50px;
+    bottom: -2450px;
     width: 120px;
   }
 
-  .description-texts-container {
-    height: 630px;
-  }
-
-  .content-project-summary_one {
-    font-size: 13px;
-  }
-
-  .content-project__buttons {
-    bottom: -200px;
-  }
-
-  .twoBtns {
-    bottom: -15px;
-  }
-
-  .threeBtns {
-    bottom: -187px;
-  }
-
-  .fourBtns {
-    bottom: -235px;
-  }
-
-  .fiveBtns {
-    bottom: -102px;
-  }
-
-  .sixBtns {
-    bottom: -238px;
-  }
-
-  .sevenBtns {
-    bottom: -22px;
-  }
 }
 
 @media (max-height: 637px) {
   .footer-logo {
-    bottom: -2560px;
+    bottom: -2490px;
+  }
+
+  .contactme__wrapper {
+    height: 100%;
   }
 }
 
 @media (max-height: 607px) {
   .footer-logo {
-    bottom: -2580px;
-  }
-
-  .image-splatter {
-    top: -50px;
-    left: -60px;
-  }
-  
-  .image-splatter2 {
-    position: absolute;
-    top:140px;
-    left: 130px;
-    animation: splatterEffect2 1s ease-in-out;
-  }
-  
-  .image-splatter3 {
-    top: 500px;
-    right: 40px;
-  }
-
-  .splatter1{
-    width: 200px;
-  }
-
-  .splatter2{
-    width: 200px;
-  }
-
-  .splatter3{
-    width: 300px;
+    bottom: -2530px;
   }
 
 }
 
 @media (max-height: 576px) {
   .footer-logo {
-    bottom: -2610px;
+    bottom: -2550px;
   }
 }
 
 @media (max-height: 550px) {
   .footer-logo {
-    bottom: -2650px;
+    bottom: -2590px;
   }
 }
 
 @media (max-height: 517px) {
   .footer-logo {
-    bottom: -2670px;
+    bottom: -2610px;
   }
 }
 
 @media (max-height: 480px) {
   .footer-logo {
-    bottom: -2700px;
+    bottom: -2630px;
   }
 }
 
 @media (max-height: 450px) {
   .footer-logo {
-    bottom: -2730px;
+    bottom: -2670px;
   }
 }
 
 @media (max-height: 420px) {
   .footer-logo {
-    bottom: -2780px;
+    bottom: -2700px;
+  }
+}
+
+@media (max-height: 420px) {
+  .footer-logo {
+    bottom: -2760px;
+  }
+}
+
+@media (max-height: 270px) {
+  .footer-logo {
+    bottom: -2840px;
   }
 }
 
