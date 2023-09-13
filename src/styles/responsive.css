@@ -275,6 +275,8 @@
     right: 100px;
   }
 
+  
+
   .hero-cartoon-image2__wrapper {
     left: 270px;
   }
@@ -635,6 +637,10 @@
     left: 40px;
   }
 
+  .contactme__wrapper {
+    width: 100%;
+  }
+
   .contents-container__wrapper {
     display: block;
     margin: 50px auto 0 100px;
@@ -743,6 +749,18 @@
     height: 370px;
   }
 
+  .form-container label {
+    font-size: 18px;
+  }
+  
+  .form-container input {
+    width: 283px;
+  }
+
+  .message-input {
+    max-width: 283px;
+    min-width: 283px;
+  }
   
 }
 
@@ -806,7 +824,7 @@
     font-size: 25px;
   }
   .about-paragraph__text {
-    width: 300px;
+    width: 250px;
   }
 
   .hero-cartoon__image {
