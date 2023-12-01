@@ -54,6 +54,37 @@ const AllProjects = ({ changeTheme, setShowAllProjects }) => {
             </div>
           </div>
         </div>
+        <div className="preview-container-yt gridItems">
+          <div className="content">
+            <p>
+              I created a YouTube clone utilizing RapidAPI and ReactJS, aiming
+              to replicate the essential features of the popular video-sharing
+              platform. Leveraging RapidAPI's functionalities, the application
+              enables users to search for and discover videos
+            </p>
+            <div className="netflixBtns">
+              <a
+                className="content-btn__viewproject"
+                href="https://youtubeclonediamond.netlify.app/"
+                target="_blank"
+              >
+                View project
+              </a>
+              <a
+                className="content-btn__viewcode"
+                href="https://github.com/DiamondD7/youtube_client"
+                target="_blank"
+                style={
+                  changeTheme === false
+                    ? { color: "#202020" }
+                    : { color: "#f3f3f3" }
+                }
+              >
+                View code
+              </a>
+            </div>
+          </div>
+        </div>
 
         <div className="preview-container-blogger gridItems">
           <div className="content">
