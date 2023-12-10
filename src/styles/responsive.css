@@ -916,6 +916,7 @@
 @media (max-width: 370px){
   .footer-logo {
     width: 100px;
+    
   }
 }
 
@@ -938,13 +939,19 @@
 
 @media(max-height:1000px){
   .footer-logo{
-    bottom: -2180px;
+    bottom: -2100px;
+  }
+}
+
+@media(max-height:950px){
+  .footer-logo{
+    bottom: -2200px;
   }
 }
 
 @media(max-height:900px){
   .footer-logo{
-    bottom: -2230px;
+    bottom: -2280px;
   }
   
 }
@@ -968,7 +975,7 @@
 
 @media(max-height: 858px){
   .footer-logo {
-    bottom: -2280px;
+    bottom: -2320px;
   }
 
   .about-paragraph__text {
