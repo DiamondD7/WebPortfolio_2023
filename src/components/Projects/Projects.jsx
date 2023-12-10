@@ -3,6 +3,7 @@ import NetF from "../../assets/ProjectImages/nf.png";
 import KaliWeb from "../../assets/ProjectImages/kaliphotography.png";
 import ShopNZ from "../../assets/ProjectImages/shopNZ.png";
 import ShopAdmin from "../../assets/ProjectImages/shopAdmin.png";
+import YtClone from "../../assets/ProjectImages/ytclone.png";
 import FinanceTracker from "../../assets/ProjectImages/financetrackerss.png";
 import ToDo from "../../assets/ProjectImages/todoscreenshot.png";
 import Vrooms from "../../assets/ProjectImages/vroomss.jpg";
@@ -147,29 +148,28 @@ const ProjectContents = ({ changeTheme, setShowAllProjects }) => {
           <div>
             <img
               className="content-project_one fitImage"
-              src={ShopAdmin}
-              alt="ShopLiftAdmin-project"
+              src={YtClone}
+              alt="YtClone-project"
             />
           </div>
           <div className="content-project-sumamry__wrapper">
             <p className="content-project-summary_one">
-              This project is the admin part of the e-commerce website where
-              only authorised personel have access, have the power to perform
-              CRUD operations and have full control of the data FYI: Wait for
-              the data to load around 2 mins. FYI: Wait for the data to load
-              around 2 mins.
+              I created a YouTube clone utilizing RapidAPI and ReactJS, aiming
+              to replicate the essential features of the popular video-sharing
+              platform. Leveraging RapidAPI's functionalities, the application
+              enables users to search for and discover videos
             </p>
             <div className="content-project__buttons threeBtns">
               <a
                 className="content-btn__viewproject"
-                href="https://shopliftnzadmin.azurewebsites.net/"
+                href="https://youtubeclonediamond.netlify.app/"
                 target="_blank"
               >
                 View project
               </a>
               <a
                 className="content-btn__viewcode"
-                href="https://github.com/DiamondD7/shoplift_admin"
+                href="https://github.com/DiamondD7/youtube_client"
                 target="_blank"
                 style={
                   changeTheme === false
