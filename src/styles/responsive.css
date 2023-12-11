@@ -1023,15 +1023,23 @@
 }
 
 /* SAMSUNG S20 FE */
-@media (max-height: 670px) {
+@media (max-height: 670px) and (max-width: 412px) {
 
+  .footer-logo {
+    bottom: -2520px;
+    width: 120px;
+  }
+
+}
+
+/* @media (max-height: 670px){
 
   .footer-logo {
     bottom: -2450px;
     width: 120px;
   }
 
-}
+} */
 
 @media (max-height: 637px) {
   .footer-logo {
