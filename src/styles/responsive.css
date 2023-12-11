@@ -40,10 +40,7 @@
 }
 
 @media(max-width:1700px){
-  .all-projects__wrapper{
-    display: grid;
-    grid-template-columns: repeat(3, 320px);
-  }
+  
 }
 
 @media (max-width: 1600px) {
@@ -121,10 +118,7 @@
     width: 300px;
   }
 
-  .all-projects__wrapper{
-    display: grid;
-    grid-template-columns: repeat(3, 250px);
-  }
+  
 
 }
 
@@ -162,10 +156,7 @@
     width: 250px;
   }
 
-  .all-projects__wrapper{
-    display: grid;
-    grid-template-columns: repeat(2, 320px);
-  }
+  
 }
 
 @media (max-width: 1100px) {
@@ -401,10 +392,7 @@
     bottom: -75px;
   }
 
-  .all-projects__wrapper{
-    display: grid;
-    grid-template-columns: repeat(2, 240px);
-  }
+
 }
 
 @media (max-width: 900px) {
@@ -450,7 +438,19 @@
   .all-projects__wrapper{
     display: grid;
     grid-template-columns: repeat(1, 250px);
+    width: 620px;
   }
+
+  .preview-container-nf,.preview-container-yt,.preview-container-blogger,.preview-container-shoplift,.preview-container-shopliftAdmin,
+  .preview-container-kaliphotography,.preview-container-financeTracker,.preview-container-financeTracker,.preview-container-Todo{
+    width: 600px; 
+  }
+  .preview-container-nf:hover > .content, .preview-container-yt:hover > .content, .preview-container-blogger:hover > .content,.preview-container-shoplift:hover > .content, 
+  .preview-container-shopliftAdmin:hover > .content,.preview-container-kaliphotography:hover > .content, .preview-container-financeTracker:hover > .content, 
+  .preview-container-Todo:hover > .content{
+    width: 600px;
+  }
+  
   
 }
 
@@ -558,6 +558,20 @@
   .sevenBtns {
     bottom: -153px;
   }
+
+  .all-projects__wrapper{
+    width: 520px;
+  }
+
+  .preview-container-nf,.preview-container-yt,.preview-container-blogger,.preview-container-shoplift,.preview-container-shopliftAdmin,
+  .preview-container-kaliphotography,.preview-container-financeTracker,.preview-container-financeTracker,.preview-container-Todo{
+    width: 500px; 
+  }
+  .preview-container-nf:hover > .content, .preview-container-yt:hover > .content, .preview-container-blogger:hover > .content,.preview-container-shoplift:hover > .content, 
+  .preview-container-shopliftAdmin:hover > .content,.preview-container-kaliphotography:hover > .content, .preview-container-financeTracker:hover > .content, 
+  .preview-container-Todo:hover > .content{
+    width: 500px;
+  }
 }
 
 @media (max-width: 630px) {
@@ -617,6 +631,22 @@
 
   .sevenBtns {
     bottom: -115px;
+  }
+}
+
+@media(max-width:600px){
+  .all-projects__wrapper{
+    width: 420px;
+  }
+
+  .preview-container-nf,.preview-container-yt,.preview-container-blogger,.preview-container-shoplift,.preview-container-shopliftAdmin,
+  .preview-container-kaliphotography,.preview-container-financeTracker,.preview-container-financeTracker,.preview-container-Todo{
+    width: 400px; 
+  }
+  .preview-container-nf:hover > .content, .preview-container-yt:hover > .content, .preview-container-blogger:hover > .content,.preview-container-shoplift:hover > .content, 
+  .preview-container-shopliftAdmin:hover > .content,.preview-container-kaliphotography:hover > .content, .preview-container-financeTracker:hover > .content, 
+  .preview-container-Todo:hover > .content{
+    width: 400px;
   }
 }
 
@@ -688,9 +718,6 @@
     bottom: -12px;
   }
 
-  .all-projects__wrapper{
-    margin-left: 100px;
-  }
 }
 
 @media (max-width: 500px) {
@@ -764,6 +791,20 @@
   .message-input {
     max-width: 283px;
     min-width: 283px;
+  }
+
+  .all-projects__wrapper{
+    width: 320px;
+  }
+
+  .preview-container-nf,.preview-container-yt,.preview-container-blogger,.preview-container-shoplift,.preview-container-shopliftAdmin,
+  .preview-container-kaliphotography,.preview-container-financeTracker,.preview-container-financeTracker,.preview-container-Todo{
+    width: 300px; 
+  }
+  .preview-container-nf:hover > .content, .preview-container-yt:hover > .content, .preview-container-blogger:hover > .content,.preview-container-shoplift:hover > .content, 
+  .preview-container-shopliftAdmin:hover > .content,.preview-container-kaliphotography:hover > .content, .preview-container-financeTracker:hover > .content, 
+  .preview-container-Todo:hover > .content{
+    width: 300px;
   }
   
 }
@@ -907,16 +948,25 @@
     left: 170px;
   }
 
-  .all-projects__wrapper{
-    margin-left: 50px;
-  }
 
 }
 
 @media (max-width: 370px){
   .footer-logo {
     width: 100px;
-    
+  }
+  .all-projects__wrapper{
+    width: 220px;
+  }
+
+  .preview-container-nf,.preview-container-yt,.preview-container-blogger,.preview-container-shoplift,.preview-container-shopliftAdmin,
+  .preview-container-kaliphotography,.preview-container-financeTracker,.preview-container-financeTracker,.preview-container-Todo{
+    width: 200px; 
+  }
+  .preview-container-nf:hover > .content, .preview-container-yt:hover > .content, .preview-container-blogger:hover > .content,.preview-container-shoplift:hover > .content, 
+  .preview-container-shopliftAdmin:hover > .content,.preview-container-kaliphotography:hover > .content, .preview-container-financeTracker:hover > .content, 
+  .preview-container-Todo:hover > .content{
+    width: 200px;
   }
 }
 

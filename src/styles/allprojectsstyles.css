@@ -13,11 +13,37 @@
 
 .all-projects__wrapper{
     display: grid;
-    grid-template-columns: repeat(4, 320px);
+    grid-template-columns: 1;
     gap: 70px;
-    margin:100px 200px 0 225px;
-    height: 100vh;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    padding-bottom: 30px;
+    width: 900px;
+    height: 90vh;
+    overflow: auto;
+    
 }
+
+/* SCROLL STYLES */
+
+.all-projects__wrapper::-webkit-scrollbar {
+    border-radius: 50%;
+}
+
+.all-projects__wrapper::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+.all-projects__wrapper::-webkit-scrollbar-thumb {
+    background-color: #5e17eb;
+    border: 4px solid transparent;
+    border-radius: 8px;
+    background-clip: padding-box;
+}
+
+/* SCROLL STYLES */
 
 .content{
     font-size: 13px;
@@ -36,10 +62,11 @@
     background-repeat: no-repeat;
     background-position: center center; 
 
-    width: 300px;
+    width: 800px; 
     height: 350px;
 
     box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+    
 }
 
 .preview-container-nf > .content{
@@ -52,17 +79,21 @@
     background-size: cover;
     background-position: center center; 
 
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, #5e17eb 0px 18px 36px -18px;
     
-    width: 300px;
+    width: 800px;
     height: 350px;
     opacity: 1;
-    transition: opacity 1s ease;
+    transition: opacity, box-shadow 1s ease;
+    cursor: pointer;
 }
 
 .netflixBtns{
-    position: relative;
+    /* position: relative;
     bottom: -239px;
-    left: -10px;
+    left: -10px; */
+    margin-top: 10px;
+    color: #f3f3f3;
 }
 
 /* ------------------------------------------- */
@@ -73,7 +104,7 @@
     background-repeat: no-repeat;
     background-position: center center; 
 
-    width: 300px;
+    width: 800px;
     height: 350px;
 
     box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
@@ -89,11 +120,13 @@
     background-size: cover;
     background-position: center center; 
 
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, #5e17eb 0px 18px 36px -18px;
+    transition: opacity, box-shadow 1s ease;
     
-    width: 300px;
+    width: 800px;
     height: 350px;
     opacity: 1;
-    transition: opacity 1s ease;
+    cursor: pointer;
 }
 
 
@@ -110,7 +143,7 @@
     background-repeat: no-repeat;
     background-position: center center; 
 
-    width: 300px;
+    width: 800px;
     height: 350px;
 
     box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
@@ -127,15 +160,19 @@
     background-position: center center; 
 
     
-    width: 300px;
+    width: 800px;
     height: 350px;
     opacity: 1;
-    transition: opacity 1s ease;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, #5e17eb 0px 18px 36px -18px;
+    transition: opacity, box-shadow 1s ease;
+    cursor: pointer;
 }
 .bloggerBtns{
-    position: relative;
+    /* position: relative;
     bottom: -171px;
-    left: -10px;
+    left: -10px; */
+    margin-top: 10px;
+    color: #f3f3f3;
 }
 
 /* ------------------------------------------- */
@@ -149,7 +186,7 @@
     background-repeat: no-repeat;
     background-position: center center; 
 
-    width: 300px;
+    width: 800px;
     height: 350px;
 
     box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
@@ -166,15 +203,19 @@
     background-position: center center; 
 
     
-    width: 300px;
+    width: 800px;
     height: 350px;
     opacity: 1;
-    transition: opacity 1s ease;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, #5e17eb 0px 18px 36px -18px;
+    transition: opacity, box-shadow 1s ease;
+    cursor: pointer;
 }
 .shopliftBtns{
-    position: relative;
+    /* position: relative;
     bottom: -120px;
-    left: -10px;
+    left: -10px; */
+    margin-top: 10px;
+    color: #f3f3f3;
 }
 
 /* ------------------------------------------- */
@@ -187,7 +228,7 @@
     background-repeat: no-repeat;
     background-position: center center; 
 
-    width: 300px;
+    width: 800px;
     height: 350px;
 
     box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
@@ -204,15 +245,19 @@
     background-position: center center; 
 
     
-    width: 300px;
+    width: 800px;
     height: 350px;
     opacity: 1;
-    transition: opacity 1s ease;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, #5e17eb 0px 18px 36px -18px;
+    transition: opacity, box-shadow 1s ease;
+    cursor: pointer;
 }
 .shopliftAdminBtns{
-    position: relative;
+    /* position: relative;
     bottom: -222px;
-    left: -10px;
+    left: -10px; */
+    margin-top: 10px;
+    color: #f3f3f3;
 }
 
 /* ------------------------------------------- */
@@ -225,7 +270,7 @@
     background-repeat: no-repeat;
     background-position: center center; 
 
-    width: 300px;
+    width: 800px;
     height: 350px;
 
     box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
@@ -242,15 +287,19 @@
     background-position: center center; 
 
     
-    width: 300px;
+    width: 800px;
     height: 350px;
     opacity: 1;
-    transition: opacity 1s ease;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, #5e17eb 0px 18px 36px -18px;
+    transition: opacity, box-shadow 1s ease;
+    cursor: pointer;
 }
 .kaliphotographyBtns{
-    position: relative;
+    /* position: relative;
     bottom: -257px;
-    left: -10px;
+    left: -10px; */
+    margin-top: 10px;
+    color: #f3f3f3;
 }
 
 /* ------------------------------------------- */
@@ -263,7 +312,7 @@
     background-repeat: no-repeat;
     background-position: center center; 
 
-    width: 300px;
+    width: 800px;
     height: 350px;
 
     box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
@@ -280,15 +329,19 @@
     background-position: center center; 
 
     
-    width: 300px;
+    width: 800px;
     height: 350px;
     opacity: 1;
-    transition: opacity 1s ease;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, #5e17eb 0px 18px 36px -18px;
+    transition: opacity, box-shadow 1s ease;
+    cursor: pointer;
 }
 .financeTrackerBtns{
-    position: relative;
+    /* position: relative;
     bottom: -188px;
-    left: -10px;
+    left: -10px; */
+    margin-top: 10px;
+    color: #f3f3f3;
 }
 
 /* ------------------------------------------- */
@@ -301,7 +354,7 @@
     background-repeat: no-repeat;
     background-position: center center; 
 
-    width: 300px;
+    width: 800px;
     height: 350px;
 
     box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
@@ -318,15 +371,19 @@
     background-position: center center; 
 
     
-    width: 300px;
+    width: 800px;
     height: 350px;
     opacity: 1;
-    transition: opacity 1s ease;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, #5e17eb 0px 18px 36px -18px;
+    transition: opacity, box-shadow 1s ease;
+    cursor: pointer;
 }
 .TodoBtns{
-    position: relative;
+    /* position: relative;
     bottom: -256px;
-    left: -10px;
+    left: -10px; */
+    margin-top: 10px;
+    color: #f3f3f3;
 }
 
 /* ------------------------------------------- */

@@ -43,11 +43,7 @@ const AllProjects = ({ changeTheme, setShowAllProjects }) => {
                 className="content-btn__viewcode"
                 href="https://github.com/DiamondD7/Netflix-clone"
                 target="_blank"
-                style={
-                  changeTheme === false
-                    ? { color: "#202020" }
-                    : { color: "#f3f3f3" }
-                }
+                style={{ color: "#f3f3f3" }}
               >
                 View code
               </a>
@@ -74,11 +70,7 @@ const AllProjects = ({ changeTheme, setShowAllProjects }) => {
                 className="content-btn__viewcode"
                 href="https://github.com/DiamondD7/youtube_client"
                 target="_blank"
-                style={
-                  changeTheme === false
-                    ? { color: "#202020" }
-                    : { color: "#f3f3f3" }
-                }
+                style={{ color: "#f3f3f3" }}
               >
                 View code
               </a>
@@ -109,6 +101,7 @@ const AllProjects = ({ changeTheme, setShowAllProjects }) => {
                 className="content-btn__viewcode"
                 href="https://github.com/DiamondD7/blogger_client"
                 target="_blank"
+                style={{ color: "#f3f3f3" }}
               >
                 View code
               </a>
@@ -116,6 +109,7 @@ const AllProjects = ({ changeTheme, setShowAllProjects }) => {
                 className="content-btn__viewcode"
                 href="https://github.com/DiamondD7/blogger_server_2/tree/master"
                 target="_blank"
+                style={{ color: "#f3f3f3" }}
               >
                 View backend code
               </a>
@@ -148,11 +142,7 @@ const AllProjects = ({ changeTheme, setShowAllProjects }) => {
                 className="content-btn__viewcode"
                 href="https://github.com/DiamondD7/shoplift_client"
                 target="_blank"
-                style={
-                  changeTheme === false
-                    ? { color: "#202020" }
-                    : { color: "#f3f3f3" }
-                }
+                style={{ color: "#f3f3f3" }}
               >
                 View code
               </a>
@@ -181,11 +171,7 @@ const AllProjects = ({ changeTheme, setShowAllProjects }) => {
                 className="content-btn__viewcode"
                 href="https://github.com/DiamondD7/shoplift_admin"
                 target="_blank"
-                style={
-                  changeTheme === false
-                    ? { color: "#202020" }
-                    : { color: "#f3f3f3" }
-                }
+                style={{ color: "#f3f3f3" }}
               >
                 View code
               </a>
@@ -205,11 +191,7 @@ const AllProjects = ({ changeTheme, setShowAllProjects }) => {
                 className="content-btn__viewcode"
                 href="https://github.com/DiamondD7/kaliphotography"
                 target="_blank"
-                style={
-                  changeTheme === false
-                    ? { color: "#202020" }
-                    : { color: "#f3f3f3" }
-                }
+                style={{ color: "#f3f3f3" }}
               >
                 View code
               </a>
@@ -240,11 +222,7 @@ const AllProjects = ({ changeTheme, setShowAllProjects }) => {
                 className="content-btn__viewcode"
                 href="https://github.com/DiamondD7/financeClient"
                 target="_blank"
-                style={
-                  changeTheme === false
-                    ? { color: "#202020" }
-                    : { color: "#f3f3f3" }
-                }
+                style={{ color: "#f3f3f3" }}
               >
                 View code
               </a>
@@ -252,11 +230,7 @@ const AllProjects = ({ changeTheme, setShowAllProjects }) => {
                 className="content-btn__viewcode"
                 href="https://github.com/DiamondD7/FinanceServer"
                 target="_blank"
-                style={
-                  changeTheme === false
-                    ? { color: "#202020" }
-                    : { color: "#f3f3f3" }
-                }
+                style={{ color: "#f3f3f3" }}
               >
                 View backend code
               </a>
@@ -283,11 +257,7 @@ const AllProjects = ({ changeTheme, setShowAllProjects }) => {
                 className="content-btn__viewcode"
                 href="https://github.com/DiamondD7/todolist_client"
                 target="_blank"
-                style={
-                  changeTheme === false
-                    ? { color: "#202020" }
-                    : { color: "#f3f3f3" }
-                }
+                style={{ color: "#f3f3f3" }}
               >
                 View code
               </a>
@@ -295,11 +265,7 @@ const AllProjects = ({ changeTheme, setShowAllProjects }) => {
                 className="content-btn__viewcode"
                 href="https://github.com/DiamondD7/todolist_backend"
                 target="_blank"
-                style={
-                  changeTheme === false
-                    ? { color: "#202020" }
-                    : { color: "#f3f3f3" }
-                }
+                style={{ color: "#f3f3f3" }}
               >
                 View backend code
               </a>
