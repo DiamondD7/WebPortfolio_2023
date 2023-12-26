@@ -91,74 +91,80 @@ const Home = ({ lightTheme, changeTheme }) => {
           <div>
             {/* <Footer /> */}
             <div className="footer-container__wrapper">
-              <div className="footer-title__wrapper">
-                <div>
-                  <h1 className="footer-title__header">Let's work together</h1>
+              <div className="footer-title-logo__wrapper">
+                <div className="footer-title__wrapper">
                   <div>
-                    <h3 className="footer-title__quote">
-                      I may be unfinished, but I am not stagnant - I am a work
-                      in progress, constantly evolving and growing.
-                    </h3>
+                    <h1 className="footer-title__header">
+                      Let's work together
+                    </h1>
+                    <div>
+                      <h3 className="footer-title__quote">
+                        I may be unfinished, but I am not stagnant - I am a work
+                        in progress, constantly evolving and growing.
+                      </h3>
+                    </div>
                   </div>
+
+                  <ul className="footer-ul__wrapper">
+                    <li>
+                      <a
+                        href="https://www.instagram.com/diamondcde/"
+                        target="_blank"
+                      >
+                        Instagram
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="https://www.facebook.com/aaron.sierra.75"
+                        target="_blank"
+                      >
+                        Facebook
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="https://www.linkedin.com/in/aaron-sierra-0b2106224/"
+                        target="_blank"
+                      >
+                        LinkedIn
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://github.com/DiamondD7" target="_blank">
+                        GitHub
+                      </a>
+                    </li>
+                    <li>
+                      <button onClick={() => scrollToContact(3)}>
+                        Contact me
+                      </button>
+                    </li>
+                  </ul>
+
+                  <ul className="footer-ul__wrapper">
+                    <li>
+                      <button onClick={() => scrollToComponent(0)}>Home</button>
+                    </li>
+                    <li>
+                      <button onClick={() => scrollToComponent(1)}>
+                        About
+                      </button>
+                    </li>
+                    <li>
+                      <button onClick={() => scrollToComponent(2)}>
+                        Projects
+                      </button>
+                    </li>
+
+                    <li>&nbsp;</li>
+                    <li>
+                      <a href={CVPDF} target="_blank">
+                        Resume
+                      </a>
+                    </li>
+                  </ul>
                 </div>
-
-                <ul className="footer-ul__wrapper">
-                  <li>
-                    <a
-                      href="https://www.instagram.com/diamondcde/"
-                      target="_blank"
-                    >
-                      Instagram
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="https://www.facebook.com/aaron.sierra.75"
-                      target="_blank"
-                    >
-                      Facebook
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="https://www.linkedin.com/in/aaron-sierra-0b2106224/"
-                      target="_blank"
-                    >
-                      LinkedIn
-                    </a>
-                  </li>
-                  <li>
-                    <a href="https://github.com/DiamondD7" target="_blank">
-                      GitHub
-                    </a>
-                  </li>
-                  <li>
-                    <button onClick={() => scrollToContact(3)}>
-                      Contact me
-                    </button>
-                  </li>
-                </ul>
-
-                <ul className="footer-ul__wrapper">
-                  <li>
-                    <button onClick={() => scrollToComponent(0)}>Home</button>
-                  </li>
-                  <li>
-                    <button onClick={() => scrollToComponent(1)}>About</button>
-                  </li>
-                  <li>
-                    <button onClick={() => scrollToComponent(2)}>
-                      Projects
-                    </button>
-                  </li>
-
-                  <li>&nbsp;</li>
-                  <li>
-                    <a href={CVPDF} target="_blank">
-                      Resume
-                    </a>
-                  </li>
-                </ul>
 
                 <div>
                   <img
