@@ -418,7 +418,7 @@
     font-size: 15px;
   }
 
-  .all-projects__wrapper {
+  /* .all-projects__wrapper {
     display: grid;
     grid-template-columns: repeat(1, 250px);
     width: 620px;
@@ -444,7 +444,7 @@
   .preview-container-financeTracker:hover > .content,
   .preview-container-Todo:hover > .content {
     width: 600px;
-  }
+  } */
 }
 
 @media (max-width: 800px) {
@@ -549,6 +549,17 @@
     bottom: -153px;
   }
 
+  .nf-screenshot-1,
+  .yt-screenshot-1,
+  .blogger-screenshot-1,
+  .shoplift-screenshot-1,
+  .shopliftAdmin-screenshot-1,
+  .kaligraphy-screenshot-1,
+  .financeTracker-screenshot-1,
+  .Todo-screenshot-1 {
+    display: none;
+  }
+
   .all-projects__wrapper {
     width: 520px;
   }
@@ -636,7 +647,7 @@
 }
 
 @media (max-width: 600px) {
-  .all-projects__wrapper {
+  /* .all-projects__wrapper {
     width: 420px;
   }
 
@@ -660,7 +671,7 @@
   .preview-container-financeTracker:hover > .content,
   .preview-container-Todo:hover > .content {
     width: 400px;
-  }
+  } */
 }
 
 @media (max-width: 545px) {
@@ -972,7 +983,7 @@
   .footer-logo {
     width: 100px;
   }
-  .all-projects__wrapper {
+  /* .all-projects__wrapper {
     width: 220px;
   }
 
@@ -996,7 +1007,7 @@
   .preview-container-financeTracker:hover > .content,
   .preview-container-Todo:hover > .content {
     width: 200px;
-  }
+  } */
 }
 
 @media (max-width: 288px) {
