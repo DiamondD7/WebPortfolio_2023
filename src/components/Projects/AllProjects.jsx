@@ -44,7 +44,7 @@ const AllProjects = ({ changeTheme, setShowAllProjects }) => {
               </div>
             </div>
           </div>
-          <div className="nf-screenshot-1"></div>
+          <div className="nf-screenshot-2"></div>
         </div>
 
         <div className="screenshots__wrapper">
@@ -76,7 +76,7 @@ const AllProjects = ({ changeTheme, setShowAllProjects }) => {
               </div>
             </div>
           </div>
-          <div className="yt-screenshot-1"></div>
+          <div className="yt-screenshot-2"></div>
         </div>
 
         <div className="screenshots__wrapper">
@@ -119,7 +119,7 @@ const AllProjects = ({ changeTheme, setShowAllProjects }) => {
               </div>
             </div>
           </div>
-          <div className="blogger-screenshot-1"></div>
+          <div className="blogger-screenshot-2"></div>
         </div>
 
         <div className="screenshots__wrapper">
@@ -156,7 +156,7 @@ const AllProjects = ({ changeTheme, setShowAllProjects }) => {
               </div>
             </div>
           </div>
-          <div className="shoplift-screenshot-1"></div>
+          <div className="shoplift-screenshot-2"></div>
         </div>
 
         <div className="screenshots__wrapper">
@@ -189,7 +189,7 @@ const AllProjects = ({ changeTheme, setShowAllProjects }) => {
               </div>
             </div>
           </div>
-          <div className="shopliftAdmin-screenshot-1"></div>
+          <div className="shopliftAdmin-screenshot-2"></div>
         </div>
 
         <div className="screenshots__wrapper">
@@ -214,7 +214,7 @@ const AllProjects = ({ changeTheme, setShowAllProjects }) => {
               </div>
             </div>
           </div>
-          <div className="kaligraphy-screenshot-1"></div>
+          <div className="kaligraphy-screenshot-2"></div>
         </div>
 
         <div className="screenshots__wrapper">
@@ -257,7 +257,7 @@ const AllProjects = ({ changeTheme, setShowAllProjects }) => {
               </div>
             </div>
           </div>
-          <div className="financeTracker-screenshot-1"></div>
+          <div className="financeTracker-screenshot-2"></div>
         </div>
 
         <div className="screenshots__wrapper">
