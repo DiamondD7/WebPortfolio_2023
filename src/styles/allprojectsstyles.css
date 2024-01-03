@@ -62,7 +62,8 @@
   display: flex;
 }
 
-.nf-screenshot-1 {
+
+.nf-screenshot-1, .nf-screenshot-2 {
   position: relative;
   top: 20px;
   left: 0;
@@ -70,13 +71,20 @@
   margin-top: 20px;
 
   background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-    url(../assets/ProjectImages/nf.png);
+    url(../assets/ProjectImages/screenshots/nf-screenshot-2.PNG);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  width: 550px;
+  width: 540px;
   height: 320px;
 }
+
+
+.nf-screenshot-2 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+      url(../assets/ProjectImages/screenshots/nf-screenshot-3.PNG);
+}
+
 
 .preview-container-nf {
   position: relative;
@@ -141,7 +149,7 @@
 
 /* ------------------------------------------- */
 
-.yt-screenshot-1 {
+.yt-screenshot-1, .yt-screenshot-2 {
   position: relative;
   top: 20px;
   left: 0;
@@ -149,13 +157,18 @@
   margin-top: 20px;
 
   background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-    url(../assets/ProjectImages/ytclone.PNG);
+    url(../assets/ProjectImages/screenshots/yt-screenshot-2.PNG);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  width: 550px;
+  width: 540px;
   height: 320px;
 }
+
+.yt-screenshot-2 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+      url(../assets/ProjectImages/screenshots/yt-screenshot-3.PNG);
+  }
 
 .preview-container-yt {
   position: relative;
@@ -199,7 +212,7 @@
 
 /* ------------------------------------------- */
 
-.blogger-screenshot-1 {
+.blogger-screenshot-1, .blogger-screenshot-2 {
   position: relative;
   top: 20px;
   left: 0;
@@ -207,14 +220,19 @@
   margin-top: 20px;
 
   background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-    url(../assets/ProjectImages/bloggerss.png);
+    url(../assets/ProjectImages/screenshots/blogger-screenshot-2.PNG);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  width: 550px;
+  width: 540px;
   height: 320px;
 }
 
+
+.blogger-screenshot-2 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+      url(../assets/ProjectImages/screenshots/blogger-scnreenshot-3.PNG);
+  }
 .preview-container-blogger {
   position: relative;
   top: 0;
@@ -253,9 +271,6 @@
   cursor: pointer;
 }
 .bloggerBtns {
-  /* position: relative;
-    bottom: -171px;
-    left: -10px; */
   margin-top: 10px;
   color: #f3f3f3;
 }
@@ -263,7 +278,7 @@
 /* ------------------------------------------- */
 
 /* ------------------------------------------- */
-.shoplift-screenshot-1 {
+.shoplift-screenshot-1, .shoplift-screenshot-2 {
   position: relative;
   top: 20px;
   left: 0;
@@ -271,13 +286,18 @@
   margin-top: 20px;
 
   background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-    url(../assets/ProjectImages/shopNZ.PNG);
+    url(../assets/ProjectImages/screenshots/shopclient-screenshot-2.PNG);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  width: 550px;
+  width: 540px;
   height: 320px;
 }
+
+.shoplift-screenshot-2 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+      url(../assets/ProjectImages/screenshots/shopclient-screenshot-3.PNG);
+  }
 
 .preview-container-shoplift {
   position: relative;
@@ -324,7 +344,7 @@
 /* ------------------------------------------- */
 
 /* ------------------------------------------- */
-.shopliftAdmin-screenshot-1 {
+.shopliftAdmin-screenshot-1, .shopliftAdmin-screenshot-2 {
   position: relative;
   top: 20px;
   left: 0;
@@ -332,13 +352,18 @@
   margin-top: 20px;
 
   background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-    url(../assets/ProjectImages/shopAdmin.PNG);
+    url(../assets/ProjectImages/screenshots/shopadmin-screenshot-2.PNG);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  width: 550px;
+  width: 540px;
   height: 320px;
 }
+
+.shopliftAdmin-screenshot-1 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+      url(../assets/ProjectImages/screenshots/shopadmin-screenshot-3.PNG);
+  }
 
 .preview-container-shopliftAdmin {
   position: relative;
@@ -386,7 +411,7 @@
 
 /* ------------------------------------------- */
 
-.kaligraphy-screenshot-1 {
+.kaligraphy-screenshot-1, .kaligraphy-screenshot-2 {
   position: relative;
   top: 20px;
   left: 0;
@@ -394,13 +419,18 @@
   margin-top: 20px;
 
   background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-    url(../assets/ProjectImages/kaliphotography.PNG);
+    url(../assets/ProjectImages/screenshots/kali-screenshot-2.PNG);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  width: 550px;
+  width: 540px;
   height: 320px;
 }
+
+.kaligraphy-screenshot-2 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+      url(../assets/ProjectImages/screenshots/kali-screenshot-3.PNG);
+  }
 
 .preview-container-kaliphotography {
   position: relative;
@@ -447,7 +477,7 @@
 /* ------------------------------------------- */
 
 /* ------------------------------------------- */
-.financeTracker-screenshot-1 {
+.financeTracker-screenshot-1, .financeTracker-screenshot-2 {
   position: relative;
   top: 20px;
   left: 0;
@@ -455,13 +485,18 @@
   margin-top: 20px;
 
   background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-    url(../assets/ProjectImages/financetrackerss.PNG);
+    url(../assets/ProjectImages/screenshots/finance-screenshot-2.PNG);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  width: 550px;
+  width: 540px;
   height: 320px;
 }
+
+.financeTracker-screenshot-2 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+      url(../assets/ProjectImages/screenshots/finance-screenshot-3.PNG);
+  }
 
 .preview-container-financeTracker {
   position: relative;
@@ -523,7 +558,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  width: 550px;
+  width: 540px;
   height: 320px;
 }
 .preview-container-Todo {
