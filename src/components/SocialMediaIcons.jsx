@@ -42,9 +42,9 @@ const SocialMediaIcons = ({ lightTheme, changeTheme }) => {
             onClick={lightTheme}
           >
             {changeTheme === false ? (
-              <FiSunset size={"25px"} />
+              <FiSunset size={"23px"} />
             ) : (
-              <FiSunrise size={"25px"} />
+              <FiSunrise size={"23px"} />
             )}
           </button>
         </div>
