@@ -5,16 +5,32 @@ import "../../styles/allprojectsstyles.css";
 const AllProjects = ({ changeTheme, setShowAllProjects }) => {
   return (
     <div>
-      <button
-        className="backBtn"
-        onClick={() => setShowAllProjects(false)}
+      <div
+        className="back-btn__wrapper"
         style={
-          changeTheme === false ? { color: "#202020" } : { color: "#f3f3f3" }
+          changeTheme === false
+            ? { backgroundColor: "#f3f3f3" }
+            : { backgroundColor: "#202020" }
         }
       >
-        Back
-      </button>
-      <div className="all-projects__wrapper">
+        <button
+          className="backBtn"
+          onClick={() => setShowAllProjects(false)}
+          style={
+            changeTheme === false ? { color: "#202020" } : { color: "#f3f3f3" }
+          }
+        >
+          Back
+        </button>
+      </div>
+      <div
+        className="all-projects__wrapper"
+        style={
+          changeTheme === false
+            ? { backgroundColor: "#f3f3f3" }
+            : { backgroundColor: "#202020" }
+        }
+      >
         <div className="screenshots__wrapper">
           <div className="nf-screenshot-1"></div>
           <div className="preview-container-nf gridItems">

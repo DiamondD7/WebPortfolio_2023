@@ -1,16 +1,16 @@
 import React, { useState, useRef, useEffect } from "react";
+import { FiX, FiPhone } from "react-icons/fi";
 import Hero from "./Hero";
-import { FiMenu, FiX, FiPhone } from "react-icons/fi";
 import Nav from "./Nav/Nav";
 import SocialMediaIcons from "./SocialMediaIcons";
 import About from "./Aboutme/About";
 import Projects from "./Projects/Projects";
 import FooterLogo from "../assets/images/footerlogo.png";
 import CVPDF from "../assets/files/Aaron Sierra CV 2023.pdf";
+import AllProjects from "./Projects/AllProjects";
 
 import "../styles/homestyles.css";
 import "../styles/footerstyles.css";
-import AllProjects from "./Projects/AllProjects";
 const Home = ({ lightTheme, changeTheme }) => {
   const [menuClicked, setMenuClicked] = useState(null);
   const [showAllProjects, setShowAllProjects] = useState(false);
