@@ -6,7 +6,7 @@ import SocialMediaIcons from "./SocialMediaIcons";
 import About from "./Aboutme/About";
 import Projects from "./Projects/Projects";
 import FooterLogo from "../assets/images/footerlogo.png";
-import CVPDF from "../assets/files/Aaron Sierra CV 2023.pdf";
+import CVPDF from "../assets/files/AaronJulianSierraCv.pdf";
 import AllProjects from "./Projects/AllProjects";
 
 import "../styles/homestyles.css";
